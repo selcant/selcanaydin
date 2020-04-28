@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Academic</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>DO mESC Project</title>
+      <link>/post/do-mesc/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/do-mesc/</guid>
+      <description>
+
+
+&lt;div id=&#34;do-mesc-project&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;DO mESC Project&lt;/h1&gt;
+&lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DO mNPC Project</title>
+      <link>/post/do-mnpc/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/do-mnpc/</guid>
+      <description>
+
+
+&lt;div id=&#34;do-mnpc-project&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;DO mNPC Project&lt;/h1&gt;
+&lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Osmoadaptation</title>
+      <link>/post/yeast-osmo/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/yeast-osmo/</guid>
+      <description>
+
+
+&lt;div id=&#34;osmoadaptation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Osmoadaptation&lt;/h1&gt;
+&lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PHB Mapping Panel</title>
+      <link>/post/yeast-phb/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/yeast-phb/</guid>
+      <description>
+
+
+&lt;div id=&#34;phb-mapping-panel&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;PHB mapping panel&lt;/h1&gt;
+&lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
