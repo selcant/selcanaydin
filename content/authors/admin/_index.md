@@ -42,4 +42,10 @@ user_groups:
 - Visitors
 ---
 
-My long-term goal is to obtain the necessary skills to develop an independent research program focused on studying the effects of genetic and environmental variation on cell-fate decisions using a multi-disciplinary approach that combines wet-lab experiments with mathematical modeling. Towards this goal, I have sought interdisciplinary training in molecular biology, computational and systems biology, and quantitative genetics. As a postdoc in Munger lab, I aim to complement and enhance these skills by training in mouse genetics and developmental biology. As a graduate student working with Drs. Nick Buchler and Paul Magwene, I characterized the effects of natural genetic variation in budding yeast on growth dynamics in response to hyper-osmotic stress. I showed that this phenotype was highly variable in our genetically diverse collection of yeast strains, and then applied bulk segregant analysis to identify genetic variants that mediated this variable response. In my postdoctoral research, I have started exploring GxE interactions in a higher model organism (mouse) within embryonic stem cells. In addition to research, I am actively involved in teaching, mentoring and scientific outreach efforts at JAX. Outside of lab I enjoy the outdoors by hiking, snowshoeing and gardening!
+Hi! I am Selcan Aydin. Currently, working with Dr. Steve Munger as a postdoctoral associate at The Jackson Laboratory. My research interests include quantitative genetics, systems biology and cell signaling. My current research plans focus on defining the role of genetic variation in cell fate decisions with an emphasis on embryonic stem cells and mouse development.
+
+In addition to science, I am passionate about teaching, mentoring and scientific outreach. Outside of lab I enjoy the outdoors by hiking, snowshoeing and gardening!
+
+
+
+
