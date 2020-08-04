@@ -77,61 +77,57 @@
     </item>
     
     <item>
-      <title>DO mESC Project</title>
-      <link>/post/do-mesc/</link>
-      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/do-mesc/</guid>
-      <description>
-
-
-&lt;div id=&#34;do-mesc-project&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;DO mESC Project&lt;/h1&gt;
-&lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DO mNPC Project</title>
-      <link>/post/do-mnpc/</link>
-      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/do-mnpc/</guid>
-      <description>
-
-
-&lt;div id=&#34;do-mnpc-project&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;DO mNPC Project&lt;/h1&gt;
-&lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Osmoadaptation</title>
+      <title>Dissecting the effects of genetic variation on stress response</title>
       <link>/post/yeast-osmo/</link>
-      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/post/yeast-osmo/</guid>
       <description>
 
 
-&lt;div id=&#34;osmoadaptation&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Osmoadaptation&lt;/h1&gt;
+&lt;div id=&#34;osmoadaptation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Osmoadaptation&lt;/h2&gt;
+&lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;phb-mapping-panel&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;PHB mapping panel&lt;/h2&gt;
 &lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>PHB Mapping Panel</title>
-      <link>/post/yeast-phb/</link>
-      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/yeast-phb/</guid>
+      <title>Dose-response can be achieved via different regulation principles in budding yeast</title>
+      <link>/post/gene-regulation-proft/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/gene-regulation-proft/</guid>
       <description>
 
 
-&lt;div id=&#34;phb-mapping-panel&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;PHB mapping panel&lt;/h1&gt;
+&lt;div id=&#34;dissecting-mechanisms-of-gene-expression-regulation-using-single-cell-measurements&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Dissecting mechanisms of gene expression regulation using single-cell measurements&lt;/h2&gt;
 &lt;p&gt;Make this into a summary of that project + what we are interested in and what are our main findings.&lt;/p&gt;
+&lt;p&gt;Rienzo A., Poveda-Huertes D., Aydin S., Buchler N.E., Pascual-Ahuir A., Proft M. (2015). Different mechanisms confer gradual control and memory at nutrient- and stress-regulated genes in yeast. Mol Cell Biol, 35:3669–3683.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Genetic variation influences cell fate decisions</title>
+      <link>/post/do-mesc/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/do-mesc/</guid>
+      <description>
+
+
+&lt;p&gt;My current and future research plans focus on defining the role of genetic variation in cell fate decisions with an emphasis on embryonic stem cells and mouse development.&lt;/p&gt;
+&lt;div id=&#34;investigating-the-impacts-of-genetic-variation-on-pluripotency-maintenance&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Investigating the impacts of genetic variation on pluripotency maintenance&lt;/h2&gt;
+&lt;p&gt;We have been working…&lt;/p&gt;
+&lt;p&gt;Skelly, D. A., Czechanski, A., Byers, C., Aydin, S., Spruce, C., Olivier, C., Choi, K., Gatti, D. M., Raghupathy, N. M., Stanton, A., Vincent, M., Dion, S., Greenstein, I., Pankratz, M., Porter, D. K., Martin, W., Qin, W., Harrill, A. H., Choi, T., Churchill, G. A., Munger, S. C., Baker, C. L., Reinholdt, L. G. Genetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes. (2019) bioRxiv, 552059.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;influence-of-genetic-variation-on-cell-state-transitions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Influence of genetic variation on cell state transitions&lt;/h2&gt;
+&lt;p&gt;We have contrasted global gene expression and QTL mapping results between embryonic stem cells (ESCs) and neural progenitor cells (NPCs) derived from many Diversity Outbred (DO) mice.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
