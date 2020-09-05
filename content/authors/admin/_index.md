@@ -36,7 +36,7 @@ social:
   icon_pack: fab
   link: https://github.com/selcant
 - icon: linkedin
-  icon_pack: fa-linkedin
+  icon_pack: fa-linkedin-in
   link: https://www.linkedin.com/in/selcanayd/
 superuser: true
 title: Selcan Aydin
