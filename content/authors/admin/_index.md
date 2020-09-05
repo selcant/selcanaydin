@@ -1,6 +1,6 @@
 ---
 authors:
-- admin
+- admin:
 bio: My primary research interests lie at the intersection of genetic diversity and environmental variability, with the specific goal of elucidating how GxE interactions perturb gene regulation and alter cell fate decisions during development. 
 education:
   courses:
