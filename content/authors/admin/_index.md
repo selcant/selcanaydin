@@ -35,8 +35,8 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/selcant
-- icon: linkedin
-  icon_pack: fa-linkedin-in
+- icon: linkedin-in
+  icon_pack: fab
   link: https://www.linkedin.com/in/selcanayd/
 superuser: true
 title: Selcan Aydin
@@ -48,7 +48,6 @@ user_groups:
 Hi! I am Selcan Aydin. Currently, working with Dr. Steve Munger as a postdoctoral associate at The Jackson Laboratory. My research interests include quantitative genetics, systems biology and cell signaling. My current research plans focus on defining the role of genetic variation in cell fate decisions with an emphasis on embryonic stem cells and mouse development.
 
 In addition to science, I am passionate about teaching, mentoring and scientific outreach. I am a certified Software Carpentry and RStudio instructor. Outside of lab I enjoy the outdoors by hiking, snowshoeing and gardening!
-
 
 
 
