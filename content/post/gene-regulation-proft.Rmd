@@ -15,7 +15,8 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 ## Dissecting mechanisms of gene expression regulation using single-cell measurements
 
-Make this into a summary of that project + what we are interested in and what are our main findings. 
+Through a collaboration with Proft Pascual-Ahuir lab, I studied the mechanisms of dose-dependent gene regulation in response to environmental stimuli. I measured nutrient stress response in single yeast cells using phase and luminescence microscopy and microfluidics. Single-cell data showed that the graded dose-response behavior of gene expression in response to nutrient stress resulted from the heterogeneous delay in induction. In comparison to osmotic stress where the duration of the induction was shown to be responsible for the graded dose-response. Together, these findings showed that gradual dose-response can be achieved via different regulation principles in budding yeast.
 
+Population-level, bulk measurements are an indispensable part of molecular biology research but have significant limitations. The field has been moving towards single-cell measurements to overcome these limitations. For example, single-cell RNA sequencing technologies have developed significantly over the last few years. The work here is an early demonstration of the power of single-cell measurements and a significant contribution to the field of cellular signaling furthering our understanding of gene regulation.
 
-Rienzo A., Poveda-Huertes D., Aydin S., Buchler N.E., Pascual-Ahuir A., Proft M. (2015). Different mechanisms confer gradual control and memory at nutrient- and stress-regulated genes in yeast. Mol Cell Biol, 35:3669–3683.
+* Rienzo A., Poveda-Huertes D., Aydin S., Buchler N.E., Pascual-Ahuir A., Proft M. (2015). Different mechanisms confer gradual control and memory at nutrient- and stress-regulated genes in yeast. Mol Cell Biol, 35:3669–3683.

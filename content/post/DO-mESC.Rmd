@@ -16,13 +16,22 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 My current and future research plans focus on defining the role of genetic variation in cell fate decisions with an emphasis on embryonic stem cells and mouse development.
  
- 
 ## Investigating the impacts of genetic variation on pluripotency maintenance
 
-We have been working...
+We have been working:
 
+* Ortmann, D.; Brown, S.; Czechanski, A.; Aydin, S.; Muraro, D.; Huang, Y.; Tomaz, R. A.; Osnato, A.; Canu, G.; Wesley, B. T.; Skelly, D. A.; Stegle, O.; Choi, T.; Churchill, G. A.; Baker, C. L.; Rugg-Gunn, P. J.; Munger, S. C.; Reinholdt, L. G.; Vallier, L. Naive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation. Cell Stem Cell 2020, 27, 470–481.e6.
 
-Skelly, D. A., Czechanski, A., Byers, C., Aydin, S., Spruce, C., Olivier, C., Choi, K., Gatti, D. M., Raghupathy, N. M., Stanton, A., Vincent, M., Dion, S., Greenstein, I., Pankratz, M., Porter, D. K., Martin, W., Qin, W., Harrill, A. H., Choi, T., Churchill, G. A., Munger, S. C., Baker, C. L., Reinholdt, L. G. Genetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes. (2019) bioRxiv, 552059.
+* Skelly, D. A.; Czechanski, A.; Byers, C.; Aydin, S.; Spruce, C.; Olivier, C.; Choi, K.; Gatti, D. M.; Raghupathy, N.; Keele, G. R.; Stanton, A.; Vincent, M.; Dion, S.; Greenstein, I.; Pankratz, M.; Porter, D. K.; Martin, W.; O'Connor, C.; Qin, W.; Harrill, A. H.; Choi, T.; Churchill, G. A.; Munger, S. C.; Baker, C. L.; Reinholdt, L. G. Mapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency. Cell Stem Cell 2020, 27, 459–469.e8.
+
+* Skelly, D. A., Czechanski, A., Byers, C., Aydin, S., Spruce, C., Olivier, C., Choi, K., Gatti, D. M., Raghupathy, N. M., Stanton, A., Vincent, M., Dion, S., Greenstein, I., Pankratz, M., Porter, D. K., Martin, W., Qin, W., Harrill, A. H., Choi, T., Churchill, G. A., Munger, S. C., Baker, C. L., Reinholdt, L. G. Genetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes. (2019) bioRxiv, 552059.
+
+See also the very nice preview of the accompanying papers:
+
+mESCs can self-renew indefinitely in vitro. However, depending on culture conditions some strains are more unstable than others. In this issue of Cell Stem Cell, Skelly et al. (2020) and Ortmann et al. (2020) shed light into the role genetic variation plays in control of ground state pluripotency.
+
+Revealing Instability: Genetic Variation Underlies Variability in mESC Pluripotency D’Antonio, Matteo et al. Cell Stem Cell, Volume 27, Issue 3, 347 - 349
+
 
 ## Influence of genetic variation on cell state transitions
 
