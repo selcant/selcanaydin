@@ -1,5 +1,5 @@
 ---
-title: "Dose-response can be achieved via different regulation principles in budding yeast"
+title: "Single cell analysis reveals differnt mechanisms of gene regulation"
 author: "Selcan Aydin"
 date: "`r Sys.Date()`"
 output: 
