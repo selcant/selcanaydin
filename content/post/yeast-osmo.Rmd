@@ -13,7 +13,6 @@ output:
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-
 In nature, yeast grow in different niches ranging from trees to people and experience variability in osmolarity. Thus, one might expect to see large variation in the dynamics of osmo-adaptation (phenotype) across different strains (genotype) from diverse environments. The rationale for my thesis research was to test whether our current understanding of the cellular pathway responsible for recovering from hyper osmotic stress in budding yeast, high osmolarity glycerol (HOG) pathway, and to identify and map new alleles and genes. The common model in the field of quantitative genetics has been that complex traits (e.g. disease susceptibility) are driven by small effect mutations in key genes of pathways related to the trait. However, this model has been challenged by many genome-wide association studies (GWAS) looking at disease risk in humans. Instead, an omnigenic model, highlighting the contribution of variants outside the core pathway genes has been proposed. My findings addresses this fundamental conflict using a model organism and a well-characterized stress response pathway. 
 
 * Aydin S., Roth C., Skelly D., Magwene P.M., Buchler N.E. (2020). BSA-seq identifies novel loci associated with osmo-adaptation. (in preparation)

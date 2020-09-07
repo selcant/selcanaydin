@@ -1,5 +1,5 @@
 ---
-title: "Single cell analysis reveals differnt mechanisms of gene regulation"
+title: "Single cell analysis reveals different mechanisms of gene regulation"
 author: "Selcan Aydin"
 date: "`r Sys.Date()`"
 output: 
