@@ -13,7 +13,6 @@ output:
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-## Dissecting mechanisms of gene expression regulation using single-cell measurements
 
 Through a collaboration with Proft Pascual-Ahuir lab, I studied the mechanisms of dose-dependent gene regulation in response to environmental stimuli. I measured nutrient stress response in single yeast cells using phase and luminescence microscopy and microfluidics. Single-cell data showed that the graded dose-response behavior of gene expression in response to nutrient stress resulted from the heterogeneous delay in induction. In comparison to osmotic stress where the duration of the induction was shown to be responsible for the graded dose-response. Together, these findings showed that gradual dose-response can be achieved via different regulation principles in budding yeast.
 
