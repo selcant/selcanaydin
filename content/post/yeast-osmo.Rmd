@@ -13,7 +13,6 @@ output:
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-## Osmoadaptation
 
 In nature, yeast grow in different niches ranging from trees to people and experience variability in osmolarity. Thus, one might expect to see large variation in the dynamics of osmo-adaptation (phenotype) across different strains (genotype) from diverse environments. The rationale for my thesis research was to test whether our current understanding of the cellular pathway responsible for recovering from hyper osmotic stress in budding yeast, high osmolarity glycerol (HOG) pathway, and to identify and map new alleles and genes. The common model in the field of quantitative genetics has been that complex traits (e.g. disease susceptibility) are driven by small effect mutations in key genes of pathways related to the trait. However, this model has been challenged by many genome-wide association studies (GWAS) looking at disease risk in humans. Instead, an omnigenic model, highlighting the contribution of variants outside the core pathway genes has been proposed. My findings addresses this fundamental conflict using a model organism and a well-characterized stress response pathway. 
 
@@ -21,8 +20,6 @@ In nature, yeast grow in different niches ranging from trees to people and exper
 
 * Aydin, S. Understanding the Effects of Genetic Variation on Osmo-adaptation Dynamics Across *S. cerevisiae* using Bulk Segregant Analysis and Whole Genome Sequencing (2017). Duke University.
 
-
-## PHB mapping panel
 
 Similar to what is observed in human genetics, the power of genetic mapping is limited in budding yeast due to a strong population structure where individuals from similar geographic origins cluster into sub-groups. The Magwene lab recently sequenced 100 *Saccharomyces cerevisiae* strains and the goal of this project was to create a library of recombinants between these diverse strains and characterize their growth across various environmental conditions. This is a useful community resource for researchers interested in using association mapping to identify novel alleles.  High-throughput phenotyping of the panel showed a large amount of heritable variation in growth dynamics in regular conditions and under various environmental stresses. 
 
