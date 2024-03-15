@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Selcan Aydin</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:4321/post/</link>
+      <atom:link href="//localhost:4321/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>//localhost:4321/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>//localhost:4321/post/</link>
     </image>
     
     <item>
       <title>Dissecting the effects of genetic variation on stress response</title>
-      <link>/post/yeast-osmo/</link>
+      <link>//localhost:4321/post/yeast-osmo/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>/post/yeast-osmo/</guid>
+      <guid>//localhost:4321/post/yeast-osmo/</guid>
       <description>
 
 
@@ -36,9 +36,9 @@
     
     <item>
       <title>Genetic variation influences cell fate decisions</title>
-      <link>/post/do-mesc/</link>
+      <link>//localhost:4321/post/do-mesc/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/post/do-mesc/</guid>
+      <guid>//localhost:4321/post/do-mesc/</guid>
       <description>
 
 
@@ -56,9 +56,9 @@
     
     <item>
       <title>Single cell analysis reveals different mechanisms of gene regulation</title>
-      <link>/post/gene-regulation-proft/</link>
+      <link>//localhost:4321/post/gene-regulation-proft/</link>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/post/gene-regulation-proft/</guid>
+      <guid>//localhost:4321/post/gene-regulation-proft/</guid>
       <description>
 
 
