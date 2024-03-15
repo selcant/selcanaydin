@@ -5,9 +5,9 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Selcan Aydin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Selcan Aydin</title>
       <link>/</link>
     </image>
@@ -79,62 +79,34 @@
     <item>
       <title>Dissecting the effects of genetic variation on stress response</title>
       <link>/post/yeast-osmo/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       <guid>/post/yeast-osmo/</guid>
       <description>
 
 
-&lt;div id=&#34;osmoadaptation&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Osmoadaptation&lt;/h2&gt;
 &lt;p&gt;In nature, yeast grow in different niches ranging from trees to people and experience variability in osmolarity. Thus, one might expect to see large variation in the dynamics of osmo-adaptation (phenotype) across different strains (genotype) from diverse environments. The rationale for my thesis research was to test whether our current understanding of the cellular pathway responsible for recovering from hyper osmotic stress in budding yeast, high osmolarity glycerol (HOG) pathway, and to identify and map new alleles and genes. The common model in the field of quantitative genetics has been that complex traits (e.g. disease susceptibility) are driven by small effect mutations in key genes of pathways related to the trait. However, this model has been challenged by many genome-wide association studies (GWAS) looking at disease risk in humans. Instead, an omnigenic model, highlighting the contribution of variants outside the core pathway genes has been proposed. My findings addresses this fundamental conflict using a model organism and a well-characterized stress response pathway.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Aydin S., Roth C., Skelly D., Magwene P.M., Buchler N.E. (2020). BSA-seq identifies novel loci associated with osmo-adaptation. (in preparation)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aydin S., Roth C., Skelly D., Magwene P.M., Buchler N.E. BSA-seq identifies novel loci associated with osmo-adaptation. (in preparation)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Aydin, S. Understanding the Effects of Genetic Variation on Osmo-adaptation Dynamics Across &lt;em&gt;S. cerevisiae&lt;/em&gt; using Bulk Segregant Analysis and Whole Genome Sequencing (2017). Duke University.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;phb-mapping-panel&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;PHB mapping panel&lt;/h2&gt;
 &lt;p&gt;Similar to what is observed in human genetics, the power of genetic mapping is limited in budding yeast due to a strong population structure where individuals from similar geographic origins cluster into sub-groups. The Magwene lab recently sequenced 100 &lt;em&gt;Saccharomyces cerevisiae&lt;/em&gt; strains and the goal of this project was to create a library of recombinants between these diverse strains and characterize their growth across various environmental conditions. This is a useful community resource for researchers interested in using association mapping to identify novel alleles. High-throughput phenotyping of the panel showed a large amount of heritable variation in growth dynamics in regular conditions and under various environmental stresses.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Aydin S., Skelly D., Roth C., Murray D., Buchler N.E., Magwene P.M. (2019). Novel mapping panel reveals loci associated with growth. (in preparation)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Aydin S., Skelly D., Roth C., Murray D., Buchler N.E., Magwene P.M. Novel mapping panel reveals loci associated with growth. (in preparation)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Skelly, D. A.; McCusker, J. H.; Stone, E. A.; Magwene, P. M. Private haplotype barcoding facilitates inexpensive high-resolution genotyping of multiparent crosses. bioRxiv 2017, 116582.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Strope, P. K.; Skelly, D. A.; Kozmin, S. G.; Mahadevan, G.; Stone, E. A.; Magwene, P. M.; Dietrich, F. S.; McCusker, J. H. The 100-genomes strains, an S. cerevisiae resource that illuminates its natural phenotypic and genotypic variation and emergence as an opportunistic pathogen. Genome Res 2015, 25, 762–774.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dose-response can be achieved via different regulation principles in budding yeast</title>
-      <link>/post/gene-regulation-proft/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/post/gene-regulation-proft/</guid>
-      <description>
-
-
-&lt;div id=&#34;dissecting-mechanisms-of-gene-expression-regulation-using-single-cell-measurements&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Dissecting mechanisms of gene expression regulation using single-cell measurements&lt;/h2&gt;
-&lt;p&gt;Through a collaboration with Proft Pascual-Ahuir lab, I studied the mechanisms of dose-dependent gene regulation in response to environmental stimuli. I measured nutrient stress response in single yeast cells using phase and luminescence microscopy and microfluidics. Single-cell data showed that the graded dose-response behavior of gene expression in response to nutrient stress resulted from the heterogeneous delay in induction. In comparison to osmotic stress where the duration of the induction was shown to be responsible for the graded dose-response. Together, these findings showed that gradual dose-response can be achieved via different regulation principles in budding yeast.&lt;/p&gt;
-&lt;p&gt;Population-level, bulk measurements are an indispensable part of molecular biology research but have significant limitations. The field has been moving towards single-cell measurements to overcome these limitations. For example, single-cell RNA sequencing technologies have developed significantly over the last few years. The work here is an early demonstration of the power of single-cell measurements and a significant contribution to the field of cellular signaling furthering our understanding of gene regulation.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Rienzo A., Poveda-Huertes D., Aydin S., Buchler N.E., Pascual-Ahuir A., Proft M. (2015). Different mechanisms confer gradual control and memory at nutrient- and stress-regulated genes in yeast. Mol Cell Biol, 35:3669–3683.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Genetic variation influences cell fate decisions</title>
       <link>/post/do-mesc/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/post/do-mesc/</guid>
       <description>
 
 
-&lt;p&gt;My current and future research plans focus on defining the role of genetic variation in cell fate decisions with an emphasis on embryonic stem cells and mouse development.&lt;/p&gt;
-&lt;div id=&#34;investigating-the-impacts-of-genetic-variation-on-pluripotency-maintenance&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Investigating the impacts of genetic variation on pluripotency maintenance&lt;/h2&gt;
-&lt;p&gt;We have been working:&lt;/p&gt;
+&lt;p&gt;My current and future research plans focus on defining the role of genetic variation in cell fate decisions with an emphasis on embryonic stem cells and mouse development. We have been working:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Ortmann, D.; Brown, S.; Czechanski, A.; Aydin, S.; Muraro, D.; Huang, Y.; Tomaz, R. A.; Osnato, A.; Canu, G.; Wesley, B. T.; Skelly, D. A.; Stegle, O.; Choi, T.; Churchill, G. A.; Baker, C. L.; Rugg-Gunn, P. J.; Munger, S. C.; Reinholdt, L. G.; Vallier, L. Naive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation. Cell Stem Cell 2020, 27, 470–481.e6.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Skelly, D. A.; Czechanski, A.; Byers, C.; Aydin, S.; Spruce, C.; Olivier, C.; Choi, K.; Gatti, D. M.; Raghupathy, N.; Keele, G. R.; Stanton, A.; Vincent, M.; Dion, S.; Greenstein, I.; Pankratz, M.; Porter, D. K.; Martin, W.; O’Connor, C.; Qin, W.; Harrill, A. H.; Choi, T.; Churchill, G. A.; Munger, S. C.; Baker, C. L.; Reinholdt, L. G. Mapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency. Cell Stem Cell 2020, 27, 459–469.e8.&lt;/p&gt;&lt;/li&gt;
@@ -143,11 +115,22 @@
 &lt;p&gt;See also the very nice preview of the accompanying papers:&lt;/p&gt;
 &lt;p&gt;mESCs can self-renew indefinitely in vitro. However, depending on culture conditions some strains are more unstable than others. In this issue of Cell Stem Cell, Skelly et al. (2020) and Ortmann et al. (2020) shed light into the role genetic variation plays in control of ground state pluripotency.&lt;/p&gt;
 &lt;p&gt;Revealing Instability: Genetic Variation Underlies Variability in mESC Pluripotency D’Antonio, Matteo et al. Cell Stem Cell, Volume 27, Issue 3, 347 - 349&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;influence-of-genetic-variation-on-cell-state-transitions&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Influence of genetic variation on cell state transitions&lt;/h2&gt;
-&lt;p&gt;We have contrasted global gene expression and QTL mapping results between embryonic stem cells (ESCs) and neural progenitor cells (NPCs) derived from many Diversity Outbred (DO) mice.&lt;/p&gt;
-&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single cell analysis reveals different mechanisms of gene regulation</title>
+      <link>/post/gene-regulation-proft/</link>
+      <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/post/gene-regulation-proft/</guid>
+      <description>
+
+
+&lt;p&gt;Through a collaboration with Proft Pascual-Ahuir lab, I studied the mechanisms of dose-dependent gene regulation in response to environmental stimuli. I measured nutrient stress response in single yeast cells using phase and luminescence microscopy and microfluidics. Single-cell data showed that the graded dose-response behavior of gene expression in response to nutrient stress resulted from the heterogeneous delay in induction. In comparison to osmotic stress where the duration of the induction was shown to be responsible for the graded dose-response. Together, these findings showed that gradual dose-response can be achieved via different regulation principles in budding yeast.&lt;/p&gt;
+&lt;p&gt;Population-level, bulk measurements are an indispensable part of molecular biology research but have significant limitations. The field has been moving towards single-cell measurements to overcome these limitations. For example, single-cell RNA sequencing technologies have developed significantly over the last few years. The work here is an early demonstration of the power of single-cell measurements and a significant contribution to the field of cellular signaling furthering our understanding of gene regulation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rienzo A., Poveda-Huertes D., Aydin S., Buchler N.E., Pascual-Ahuir A., Proft M. (2015). Different mechanisms confer gradual control and memory at nutrient- and stress-regulated genes in yeast. Mol Cell Biol, 35:3669–3683.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -220,15 +203,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
@@ -249,6 +232,7 @@ Three
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;/aside&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
@@ -296,24 +280,6 @@ Three
 &lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
