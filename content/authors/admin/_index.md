@@ -21,7 +21,7 @@ interests:
 organizations:
 - name: Munger Lab at The Jackson Laboratory
   url: "https://www.jax.org/people/selcan-aydin"
-role: Postdoctoral Associate
+role: Associate Computational Scientist
 social:
 - icon: envelope
   icon_pack: fas
@@ -42,9 +42,9 @@ user_groups:
 - Visitors
 ---
 
-Hello, I'm Selcan Aydin, currently serving as an Associate Computational Scientist at The Jackson Laboratory. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University.
+Hello, I'm Selcan Aydin, currently serving as an Associate Computational Scientist at The Jackson Laboratory. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University. I worked with Drs. Nicolas Buchler and Paul Magwene at Duke, studying the impacts of genetic variation on cellular phenotypes in budding yeast, graduated in 2017.
 
-After Duke, I moved to The Jackson Laboratory for a postdoctoral position, where I delved into the fascinating world of embryonic stem cells studying the impact of genetic variation on cellular traits. My work now revolves around quantitative genetics and systems biology, particularly focusing on understanding genetic variation in mouse development.
+After Duke, I moved to The Jackson Laboratory for a postdoctoral position, where I delved into the fascinating world of embryonic stem cells investigating the impact of genetic variation on cellular traits. My work now revolves around quantitative genetics and systems biology, particularly focusing on understanding genetic variation in mouse development.
 
 Outside of work, you'll find me enjoying simple pleasures like spending time with my son, Leo, and our furry friend, Darwin. Hiking and gardening keep me grounded amidst the complexities of scientific exploration.
 
