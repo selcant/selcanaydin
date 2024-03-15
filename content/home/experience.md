@@ -18,13 +18,27 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Associate Computational Scientist"
+  company = "The Jackson Laboratory"
+  company_url = "https://www.jax.org/research-and-faculty/research-labs/the-munger-lab"
+  location = "Bar Harbor, Maine, USA"
+  date_start = "2023-08-01"
+  date_end = ""
+  description = """XXXXXX"""
+  
+[[experience]]
   title = "Postdoctoral Associate"
   company = "The Jackson Laboratory"
   company_url = "https://www.jax.org/research-and-faculty/research-labs/the-munger-lab"
   location = "Bar Harbor, Maine, USA"
   date_start = "2018-01-02"
-  date_end = ""
-  description = """Studying the influence of genetic variation on cell fate decisions, focusing on pluripotency maintenance in mouse embryonic stem cells under the supervision of Dr. Steve Munger."""
+  date_end = "2023-07-31"
+  description = """Studying the influence of genetic variation on cell fate decisions, focusing on pluripotency maintenance in mouse embryonic stem cells under the supervision of Dr. Steve Munger.
+  * add here.
+  * add here.
+  * add here.
+  
+  """
 
 [[experience]]
   title = "Research Associate"
