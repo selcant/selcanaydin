@@ -42,8 +42,10 @@ user_groups:
 - Visitors
 ---
 
-Hi! I am Selcan Aydin. I was born and raised in Istanbul, Turkey. Graduated from Sabanci University with a Biological Sciences and Bioengineering major and a Mathematical Sciences minor in 2009. Then, I moved to Heidelberg, Germany to get my master's degree in Systems Biology and graduated in 2011. Concurrently I received the prestigious Fulbright Ph.D. Award and got accepted at Duke University Biology Ph.D. program. I worked with Drs. Nicolas Buchler and Paul Magwene at Duke, studying the impacts of genetic variation on cellular phenotypes in budding yeast, graduated in 2017. Currently, I work with Dr. Steve Munger as a postdoctoral associate at The Jackson Laboratory. My research interests include quantitative genetics, systems biology, and cell signaling. My current research plans focus on defining the role of genetic variation in cell fate decisions with an emphasis on embryonic stem cells and mouse development. In addition to science, I am passionate about teaching, mentoring, and science outreach. To reach out to novice learners, I got certified as a Software Carpentry and RStudio instructor. Outside of the lab, I enjoy time with our puppy Darwin and the outdoors by hiking, snowshoeing, and gardening!
+Hello, I'm Selcan Aydin, currently serving as an Associate Computational Scientist at The Jackson Laboratory. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University.
 
+After Duke, I moved to The Jackson Laboratory for a postdoctoral position, where I delved into the fascinating world of embryonic stem cells studying the impact of genetic variation on cellular traits. My work now revolves around quantitative genetics and systems biology, particularly focusing on understanding genetic variation in mouse development.
 
+Outside of work, you'll find me enjoying simple pleasures like spending time with my son, Leo, and our furry friend, Darwin. Hiking and gardening keep me grounded amidst the complexities of scientific exploration.
 
 
