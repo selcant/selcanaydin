@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Bar Harbor, Maine, USA"
   date_start = "2023-08-01"
   date_end = ""
-  description = """XXXXXX"""
+  description = """"""
   
 [[experience]]
   title = "Postdoctoral Associate"
@@ -34,9 +34,7 @@ date_format = "Jan 2006"
   date_start = "2018-01-02"
   date_end = "2023-07-31"
   description = """Studying the influence of genetic variation on cell fate decisions, focusing on pluripotency maintenance in mouse embryonic stem cells under the supervision of Dr. Steve Munger.
-  * add here.
-  * add here.
-  * add here.
+ 
   
   """
 

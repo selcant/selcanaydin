@@ -46,6 +46,8 @@ Hello, I'm Selcan Aydin, currently serving as an Associate Computational Scienti
 
 After Duke, I moved to The Jackson Laboratory for a postdoctoral position, where I delved into the fascinating world of embryonic stem cells investigating the impact of genetic variation on cellular traits. My work now revolves around quantitative genetics and systems biology, particularly focusing on understanding genetic variation in mouse development.
 
+Aside from research, I am passionate about teaching and mentoring. I supported struggling peers in math and science during my undergraduate studies, and later advocated for underrepresented groups in STEM fields throughout graduate school. More recently, I was a member of the Genetics Society of America’s Early Career Scientist Accessibility Subcommittee, advocating for scientists with disabilities and chronic illnesses by writing up resources and organizing workshops to inform our community of ways in which they can make their research, labs, classrooms, and management styles more accessible. 
+
 Outside of work, you'll find me enjoying simple pleasures like spending time with my son, Leo, and our furry friend, Darwin. Hiking and gardening keep me grounded amidst the complexities of scientific exploration.
 
 
