@@ -20,10 +20,13 @@
     <loc>//localhost:4321/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:4321/post/yeast-osmo/</loc>
-    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <loc>//localhost:4321/post/math-modeling/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/post/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:4321/post/yeast-osmo/</loc>
     <lastmod>2024-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:4321/post/do-mesc/</loc>

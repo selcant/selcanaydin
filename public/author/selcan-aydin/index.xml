@@ -5,11 +5,16 @@
     <link>//localhost:4321/author/selcan-aydin/</link>
       <atom:link href="//localhost:4321/author/selcan-aydin/index.xml" rel="self" type="application/rss+xml" />
     <description>Selcan Aydin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>//localhost:4321/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Selcan Aydin</title>
       <link>//localhost:4321/author/selcan-aydin/</link>
+    </image>
+    
+  </channel>
+</rss>
+or/selcan-aydin/</link>
     </image>
     
     <item>
