@@ -24,3 +24,6 @@ In my postdoctoral research, I explored the influence of genetic variation on th
 See also the very nice preview of our ESC work:
 
 -   D'Antonio M, D'Antonio-Chronowska A, Frazer KA. Revealing Instability: Genetic Variation Underlies Variability in mESC Pluripotency. Cell Stem Cell. 2020 Sep 3;27(3):347-349. doi: 10.1016/j.stem.2020.08.012. PMID: 32888420.
+
+More recently, I have applied our systems genetics approach to neural progenitor cells (NPCs) derived from the same ESCs. We identified many eQTL uniquely observed in NPCs overrepresented for genes involved in cell-cell signaling and nervous system development. Notably, mediation analysis suggests that segregating genetic variants influence ESC transcript abundance which then can impacts variation in gene expression in the NPCs. Currently, I am preparing the results from this project for publication and my future work will further investigate the mechanisms and timing of these effects on NPCs.
+
