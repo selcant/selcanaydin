@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Selcan Aydin"
+  favicon: assets/avatar.jpg
+
+  navbar:
+    left:
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      
+    right:
+      - icon: github
+        href: https://github.com/selcant
+        aria-label: GitHub
+      - icon: bluesky
+        href: https://bsky.app/profile/selcan.bsky.social
+        aria-label: Bluesky
+
+  page-footer:
+    background: "#F4F7F9"
+    foreground: "#5A7580"
+    border: true
+    left: |
+      © 2025 Selcan Aydin ·
+      Made with [Quarto](https://quarto.org) ·
+      [License](/license.qmd)
+    center:
+      - icon: github
+        href: https://github.com/selcant
+        aria-label: GitHub
+      - text: "{{< iconify academicons orcid >}}"
+        href: https://orcid.org/0000-0002-0457-9641
+        aria-label: Orcid
+      - text: "{{< iconify academicons google-scholar >}}"
+        href: https://scholar.google.com/citations?user=OfDpKQIAAAAJ&hl=en&inst=955605570671304314
+        aria-label: Google Scholar
+      - icon: linkedin
+        href: https://www.linkedin.com/in/selcanayd/
+        aria-label: LinkedIn
+      - icon: bluesky
+        href: https://bsky.app/profile/selcan.bsky.social
+        aria-label: Bluesky
+      - icon: envelope
+        href: mailto:selcan.aydin@jax.org
+        aria-label: Email
+    right:
+      - text: "Contact"
+        href: contact.qmd
+
+format:
+  html:
+    theme:
+      - flatly
+      - styles.scss
+    toc: false
+    link-external-newwindow: true
+    link-external-icon: false

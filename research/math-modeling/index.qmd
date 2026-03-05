@@ -1,0 +1,45 @@
+---
+title: "Mathematical Modeling of Cellular Signaling"
+description: >
+  Modeling TNFα-induced NFκB signaling in primary murine hepatocytes
+  using quantitative experimental data and parameter estimation to
+  understand dynamic signal transduction.
+date: 2011-06-01
+categories:
+  - mathematical modeling
+  - systems biology
+  - NFκB signaling
+  - hepatocytes
+image: featured.png
+---
+
+## Overview
+
+My early career training was rooted in systems biology, particularly
+mathematical modeling of biological processes. Under the supervision
+of Prof. Dr. Ursula Kummer at the Bioquant Research Institute,
+University of Heidelberg, I modeled the tumor necrosis factor alpha
+(TNFα)-induced activation of NFκB signaling.
+
+Using quantitative data from primary murine hepatocytes, I built and
+validated an ordinary differential equation (ODE) model of the
+signaling pathway, estimating kinetic parameters and analyzing
+sensitivity to perturbations.
+
+## Methods
+
+- ODE-based mathematical modeling of signaling cascades
+- Parameter estimation from quantitative time-course data
+- Parameter sensitivity analysis
+- Experimental data from primary murine hepatocytes
+
+## Key Findings
+
+The model successfully recapitulated dynamic NFκB activation patterns
+observed experimentally and identified key parameters controlling
+signal amplitude and oscillation frequency — providing mechanistic
+insight into how hepatocytes process inflammatory signals.
+
+## Relevant Publications
+
+-   Pinna F, Sahle S, Beuke K, Bissinger M, Tuncay S (maiden name), D'Alessandro LA, Gauges R, Raue A, Timmer J, Klingmüller U, Schirmacher P, Kummer U, Breuhahn K. A Systems Biology Study on NFκB Signaling in Primary Mouse Hepatocytes. Front Physiol. 2012;3:466. PubMed PMID: 23293603; DOI: 10.3389/fphys.2012.00466; PubMed Central PMCID: PMC3533138.

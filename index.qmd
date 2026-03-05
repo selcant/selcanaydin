@@ -1,0 +1,122 @@
+---
+title: "Selcan Aydin"
+subtitle: "Associate Computational Scientist · The Jackson Laboratory"
+image: assets/avatar.jpg
+toc: false
+about:
+  template: jolla
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: github
+      text: ""
+      href: https://github.com/selcant
+    - text: "{{< iconify academicons orcid >}}"
+      href: https://orcid.org/0000-0002-0457-9641
+    - text: "{{< iconify academicons google-scholar >}}"
+      href: https://scholar.google.com
+    - icon: linkedin
+      text: ""
+      href: https://www.linkedin.com/in/selcanayd/
+    - icon: bluesky
+      text: ""
+      href: https://bsky.app/profile/selcan.bsky.social
+    - icon: envelope
+      text: ""
+      href: mailto:selcan.aydin@jax.org
+listing:
+  - id: recent-research
+    contents: research/*/index.qmd
+    type: grid
+    grid-columns: 2
+    max-items: 2
+    image-height: 180px
+    fields: [image, title, description, categories]
+    sort: "date desc"
+execute:
+  echo: false
+  warning: false
+  freeze: false
+---
+
+Hello! I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin) in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on **quantitative genetics** and **systems biology** — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my family and our dog Darwin. 🌿
+
+[Learn more about me →](about.qmd)
+
+------------------------------------------------------------------------
+
+## Recent Research
+
+::: {#recent-research}
+:::
+
+[See all research →](research.qmd){.btn .btn-outline-primary .btn-sm}
+
+------------------------------------------------------------------------
+
+## Recent Publications
+
+```{r}
+#| label: recent-pubs
+
+library(httr2)
+library(dplyr)
+library(purrr)
+library(stringr)
+
+orcid <- "0000-0002-0457-9641"
+
+author_id <- request(paste0(
+  "https://api.openalex.org/authors/orcid:", orcid,
+  "?select=id"
+)) |> req_perform() |> resp_body_json() |> _$id
+
+works_raw <- request(paste0(
+  "https://api.openalex.org/works",
+  "?filter=authorships.author.id:", author_id,
+  "&select=title,publication_year,primary_location,authorships,doi,open_access,type",
+  "&sort=publication_year:desc",
+  "&per_page=2"
+)) |> req_perform() |> resp_body_json() |> _$results
+
+render_recent_pub <- function(w) {
+  title   <- w$title %||% "Untitled"
+  year    <- w$publication_year %||% "n.d."
+  doi     <- w$doi
+  oa_url  <- w$open_access$oa_url
+  landing <- w$primary_location$landing_page_url
+  journal <- w$primary_location$source$display_name %||% ""
+  url     <- oa_url %||% landing %||%
+               if (!is.null(doi)) paste0("https://doi.org/", doi) else "#"
+  authors <- map_chr(w$authorships, ~ .x$author$display_name) |>
+    str_replace(fixed("Selcan Aydin"), "**Selcan Aydin**") |>
+    paste(collapse = ", ")
+
+  doi_badge <- if (!is.null(doi)) paste0(
+    '<a href="https://doi.org/', doi,
+    '" class="pub-badge pub-badge-doi" target="_blank">DOI</a>'
+  ) else ""
+  oa_badge <- if (!is.null(oa_url)) paste0(
+    '<a href="', oa_url,
+    '" class="pub-badge pub-badge-oa" target="_blank">Open Access</a>'
+  ) else ""
+
+  cat(paste0(
+    "::: {.pub-card}\n",
+    "::: {.pub-title}\n[", title, "](", url, ")\n:::\n",
+    "::: {.pub-authors}\n", authors, "\n:::\n",
+    "::: {.pub-meta}\n*", journal, "* · ", year, "\n:::\n",
+    "::: {.pub-badges}\n", doi_badge, oa_badge, "\n:::\n",
+    ":::\n\n"
+  ))
+}
+```
+
+```{r}
+#| label: render-recent-pubs
+#| results: asis
+
+walk(works_raw, render_recent_pub)
+```
+
+[See all publications →](publications.qmd){.btn .btn-outline-primary .btn-sm}

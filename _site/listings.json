@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/research/mesc-pluripotency/index.html",
+      "/research/yeast-osmo/index.html",
+      "/research/gene-regulation-proft/index.html",
+      "/research/math-modeling/index.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/mesc-pluripotency/index.html",
+      "/research/yeast-osmo/index.html",
+      "/research/gene-regulation-proft/index.html",
+      "/research/math-modeling/index.html"
+    ]
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "The content on this website is released under a Creative Commons Attribution 4.0 International License (CC BY 4.0), unless otherwise noted.\n\n\n\nCC BY 4.0"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Selcan Aydin",
+    "section": "",
+    "text": "Hello! I’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine, working in the Munger Lab. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University in 2017, where I studied the impacts of genetic variation on cellular phenotypes in budding yeast with Drs. Nicolas Buchler and Paul Magwene.\nMy research now revolves around quantitative genetics and systems biology, with a particular focus on understanding how genetic variation shapes cell fate decisions and mouse development.\nOutside of work I enjoy hiking, gardening, and spending time with my family and our dog Darwin. 🌿"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "Selcan Aydin",
+    "section": "Interests",
+    "text": "Interests\n\nQuantitative Genetics\nCellular Signaling\nSystems Biology\nR / Bioinformatics"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Selcan Aydin",
+    "section": "Education",
+    "text": "Education\nPhD in Biology · 2017\nDuke University\nMSc in Systems Biology · 2010\nUniversität Heidelberg\nBSc in Biological Sciences & Bioengineering · 2009\nSabancı University"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Selcan Aydin",
+    "section": "Experience",
+    "text": "Experience\nAssociate Computational Scientist · 2023–present\nThe Jackson Laboratory, Bar Harbor ME\nPostdoctoral Associate · 2018–2023\nThe Jackson Laboratory, Bar Harbor ME\nResearch Associate · 2017\nDuke University, Durham NC"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Selcan Aydin",
+    "section": "",
+    "text": "Hello! I’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on quantitative genetics and systems biology — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my son Leo and our dog Darwin. 🌿\nLearn more about me →"
+  },
+  {
+    "objectID": "index.html#recent-research",
+    "href": "index.html#recent-research",
+    "title": "Selcan Aydin",
+    "section": "Recent Research",
+    "text": "Recent Research\n\n\n\n\n\n\n\n\n\n\nGenetic variation influences pluripotency\n\n\nquantitative genetics\nstem cells\nmouse\nchromatin\n\n\nHow genetic variation shapes ground-state pluripotency in mouse embryonic stem cells using chromatin accessibility, transcript, and protein abundance data across genetically…\n\n\n\n\n\n\n\n\n\n\n\n\nDissecting the Effects of Genetic Variation on Stress Response\n\n\nquantitative genetics\nyeast\nsignaling dynamics\nQTL mapping\n\n\nUsing osmo-adaptation in budding yeast as a model to understand how genetic variation across diverse strains drives differences in signaling dynamics and phenotypic…\n\n\n\n\n\nNo matching items\n\nSee all research →"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Selcan Aydin",
+    "section": "Recent Publications",
+    "text": "Recent Publications\n\n\nSimplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification\n\n\nHannah B. Dewey, Selcan Aydin, Samuel J. Widmayer, Daniel A. Skelly, Daniel M. Gatti, Steven C. Munger\n\n\n** · 2026\n\n\nDOIOpen Access\n\n\n\n\nSystems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells\n\n\nSelcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger\n\n\nG3 Genes Genomes Genetics · 2025\n\n\nDOIOpen Access\n\n\nSee all publications →"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Genetic variation influences pluripotency\n\n\n\nquantitative genetics\n\nstem cells\n\nmouse\n\nchromatin\n\n\n\nHow genetic variation shapes ground-state pluripotency in mouse embryonic stem cells using chromatin accessibility, transcript, and protein abundance data across genetically…\n\n\n\n\n\n\n\n\n\n\n\n\nDissecting the Effects of Genetic Variation on Stress Response\n\n\n\nquantitative genetics\n\nyeast\n\nsignaling dynamics\n\nQTL mapping\n\n\n\nUsing osmo-adaptation in budding yeast as a model to understand how genetic variation across diverse strains drives differences in signaling dynamics and phenotypic…\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-Cell Analysis Reveals Mechanisms of Gene Regulation\n\n\n\ngene regulation\n\nyeast\n\nsingle-cell\n\nmicrofluidics\n\n\n\nMeasuring nutrient stress response in single yeast cells using phase and luminescence microscopy and microfluidics to uncover dose-dependent mechanisms of gene regulation.\n\n\n\n\n\n\n\n\n\n\n\n\nMathematical Modeling of Cellular Signaling\n\n\n\nmathematical modeling\n\nsystems biology\n\nNFκB signaling\n\nhepatocytes\n\n\n\nModeling TNFα-induced NFκB signaling in primary murine hepatocytes using quantitative experimental data and parameter estimation to understand dynamic signal transduction.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/yeast-osmo/index.html",
+    "href": "research/yeast-osmo/index.html",
+    "title": "Dissecting the Effects of Genetic Variation on Stress Response",
+    "section": "",
+    "text": "In nature, yeast grow in different niches ranging from trees to people and experience variability in osmolarity. Thus, one might expect to see large variation in the dynamics of osmo-adaptation (phenotype) across different strains (genotype) from diverse environments — and that is exactly what we found."
+  },
+  {
+    "objectID": "research/yeast-osmo/index.html#methods",
+    "href": "research/yeast-osmo/index.html#methods",
+    "title": "Dissecting the Effects of Genetic Variation on Stress Response",
+    "section": "Methods",
+    "text": "Methods\n\nHigh-throughput phenotyping pipeline for yeast strains in liquid and solid media\nGenetic mapping via bulk segregant analysis and whole genome sequencing (BSAseq)\nMulti-parental mapping population building with yeast strains"
+  },
+  {
+    "objectID": "research/yeast-osmo/index.html#key-findings",
+    "href": "research/yeast-osmo/index.html#key-findings",
+    "title": "Dissecting the Effects of Genetic Variation on Stress Response",
+    "section": "Key Findings",
+    "text": "Key Findings\nSubstantial heritable variation exists in the dynamics of osmo-adaptation across yeast strains. Genetic mapping revealed multiple loci influencing signaling speed, amplitude, and adaptation time — connecting natural genetic variation to dynamic phenotypes."
+  },
+  {
+    "objectID": "research/yeast-osmo/index.html#relevant-publications",
+    "href": "research/yeast-osmo/index.html#relevant-publications",
+    "title": "Dissecting the Effects of Genetic Variation on Stress Response",
+    "section": "Relevant Publications",
+    "text": "Relevant Publications\n\nAydin, S. Understanding the Effects of Genetic Variation on Osmo-adaptation Dynamics Across S. cerevisiae using Bulk Segregant Analysis and Whole Genome Sequencing (2017). Duke University.\nSkelly, D. A.; McCusker, J. H.; Stone, E. A.; Magwene, P. M. Private haplotype barcoding facilitates inexpensive high-resolution genotyping of multiparent crosses. bioRxiv 2017, 116582.\nStrope, P. K.; Skelly, D. A.; Kozmin, S. G.; Mahadevan, G.; Stone, E. A.; Magwene, P. M.; Dietrich, F. S.; McCusker, J. H. The 100-genomes strains, an S. cerevisiae resource that illuminates its natural phenotypic and genotypic variation and emergence as an opportunistic pathogen. Genome Res 2015, 25, 762–774."
+  },
+  {
+    "objectID": "research/mesc-pluripotency/index.html",
+    "href": "research/mesc-pluripotency/index.html",
+    "title": "Genetic variation influences pluripotency",
+    "section": "",
+    "text": "In my postdoctoral research at The Jackson Laboratory, I explored the influence of genetic variation on the stability of ground-state pluripotency using mouse embryonic stem cells (mESCs).\nAs part of a multi-investigator collaboration, we used genetic mapping on chromatin accessibility, transcript, and protein abundance in a panel of ESCs derived from hundreds of genetically diverse mice. This work reveals how genetic background shapes the molecular landscape of pluripotency."
+  },
+  {
+    "objectID": "research/mesc-pluripotency/index.html#overview",
+    "href": "research/mesc-pluripotency/index.html#overview",
+    "title": "Genetic variation influences pluripotency",
+    "section": "",
+    "text": "In my postdoctoral research at The Jackson Laboratory, I explored the influence of genetic variation on the stability of ground-state pluripotency using mouse embryonic stem cells (mESCs).\nAs part of a multi-investigator collaboration, we used genetic mapping on chromatin accessibility, transcript, and protein abundance in a panel of ESCs derived from hundreds of genetically diverse mice. This work reveals how genetic background shapes the molecular landscape of pluripotency."
+  },
+  {
+    "objectID": "research/mesc-pluripotency/index.html#methods",
+    "href": "research/mesc-pluripotency/index.html#methods",
+    "title": "Genetic variation influences pluripotency",
+    "section": "Methods",
+    "text": "Methods\n\nDifferential gene expression analysis\nMulti-omic integration of chromatin, transcript, and protein data\nQuantitative trait locus (QTL) mapping\nMediation analysis"
+  },
+  {
+    "objectID": "research/mesc-pluripotency/index.html#key-findings",
+    "href": "research/mesc-pluripotency/index.html#key-findings",
+    "title": "Genetic variation influences pluripotency",
+    "section": "Key Findings",
+    "text": "Key Findings\nGenetic background significantly influences the maintenance of ground-state pluripotency. Distinct loci affect chromatin accessibility, transcript abundance, and protein levels — often independently — revealing a layered genetic architecture underlying cell identity.\nMy findings also highlight the power of multi-omics data integration in revealing the distal impacts of genetic variation. While QTL mapping with individual traits may be limited due to noise introduced by measurement error, data integration can act to consolidate the influence of genetic signals shared across molecular traits and increase detection power."
+  },
+  {
+    "objectID": "research/mesc-pluripotency/index.html#relevant-publications",
+    "href": "research/mesc-pluripotency/index.html#relevant-publications",
+    "title": "Genetic variation influences pluripotency",
+    "section": "Relevant Publications",
+    "text": "Relevant Publications\n\nSkelly DA, Czechanski A, Byers C, Aydin S, Spruce C, Olivier C, Choi KB, Gatti DM, Raghupathy N, Stanton A, Vincent M, Dion S, Greenstein I, Pankratz M, Porter DK, Martin W, Qi W, Harrill AH, Choi T, Churchill GA, Munger SC, Baker CL, Reinholdt LA. Mapping the effects of genetic variation on chromatin state and gene expression reveals loci that control ground state pluripotency. Cell Stem Cell 2020 Sep 3;27(3):459-469.e8. PubMed PMID: 32795400; DOI: 10.1016/j.stem.2020.07.005; PubMed Central PMCID: PMC7484384.\nOrtmann D, Brown S, Czechanski A, Aydin S, Muraro D, Huang Y, Tomaz RA, Osnato A, Canu G, Wesley BT, Skelly DA, Stegle O, Choi T, Churchill GA, Baker CL, Rugg-Gunn PJ, Munger SC, Reinholdt LG, Vallier L. Naïve pluripotent stem cells exhibit phenotypic variability that is driven by genetic variation. Cell Stem Cell 2020 Sep 3;27(3):470-481.e6. PubMed PMID: 32795399; DOI: 10.1016/j.stem.2020.07.019; PubMed Central PMCID: PMC7487768.\nAydin S, Pham DT, Zhang T, Keele GR, Skelly DA, Paulo JA, Pankratz M, Choi T, Gygi SP, Reinholdt LG, Baker CL, Churchill GA, Munger SC. Genetic dissection of the pluripotent proteome through multi-omics data integration. Cell Genomics 2023 Mar 23;3(4):100283. PubMed PMID: 37082146; DOI: 10.1016/j.xgen.2023.100283; PubMed Central PMCID: PMC10112288.\n\nSee also the very nice preview of our ESC work:\n\nD’Antonio M, D’Antonio-Chronowska A, Frazer KA. Revealing Instability: Genetic Variation Underlies Variability in mESC Pluripotency. Cell Stem Cell. 2020 Sep 3;27(3):347-349. doi: 10.1016/j.stem.2020.08.012. PMID: 32888420."
+  },
+  {
+    "objectID": "research/math-modeling/index.html",
+    "href": "research/math-modeling/index.html",
+    "title": "Mathematical Modeling of Cellular Signaling",
+    "section": "",
+    "text": "My early career training was rooted in systems biology, particularly mathematical modeling of biological processes. Under the supervision of Prof. Dr. Ursula Kummer at the Bioquant Research Institute, University of Heidelberg, I modeled the tumor necrosis factor alpha (TNFα)-induced activation of NFκB signaling.\nUsing quantitative data from primary murine hepatocytes, I built and validated an ordinary differential equation (ODE) model of the signaling pathway, estimating kinetic parameters and analyzing sensitivity to perturbations."
+  },
+  {
+    "objectID": "research/math-modeling/index.html#overview",
+    "href": "research/math-modeling/index.html#overview",
+    "title": "Mathematical Modeling of Cellular Signaling",
+    "section": "",
+    "text": "My early career training was rooted in systems biology, particularly mathematical modeling of biological processes. Under the supervision of Prof. Dr. Ursula Kummer at the Bioquant Research Institute, University of Heidelberg, I modeled the tumor necrosis factor alpha (TNFα)-induced activation of NFκB signaling.\nUsing quantitative data from primary murine hepatocytes, I built and validated an ordinary differential equation (ODE) model of the signaling pathway, estimating kinetic parameters and analyzing sensitivity to perturbations."
+  },
+  {
+    "objectID": "research/math-modeling/index.html#methods",
+    "href": "research/math-modeling/index.html#methods",
+    "title": "Mathematical Modeling of Cellular Signaling",
+    "section": "Methods",
+    "text": "Methods\n\nODE-based mathematical modeling of signaling cascades\nParameter estimation from quantitative time-course data\nParameter sensitivity analysis\nExperimental data from primary murine hepatocytes"
+  },
+  {
+    "objectID": "research/math-modeling/index.html#key-findings",
+    "href": "research/math-modeling/index.html#key-findings",
+    "title": "Mathematical Modeling of Cellular Signaling",
+    "section": "Key Findings",
+    "text": "Key Findings\nThe model successfully recapitulated dynamic NFκB activation patterns observed experimentally and identified key parameters controlling signal amplitude and oscillation frequency — providing mechanistic insight into how hepatocytes process inflammatory signals."
+  },
+  {
+    "objectID": "research/math-modeling/index.html#relevant-publications",
+    "href": "research/math-modeling/index.html#relevant-publications",
+    "title": "Mathematical Modeling of Cellular Signaling",
+    "section": "Relevant Publications",
+    "text": "Relevant Publications\n\nPinna F, Sahle S, Beuke K, Bissinger M, Tuncay S (maiden name), D’Alessandro LA, Gauges R, Raue A, Timmer J, Klingmüller U, Schirmacher P, Kummer U, Breuhahn K. A Systems Biology Study on NFκB Signaling in Primary Mouse Hepatocytes. Front Physiol. 2012;3:466. PubMed PMID: 23293603; DOI: 10.3389/fphys.2012.00466; PubMed Central PMCID: PMC3533138."
+  },
+  {
+    "objectID": "research/gene-regulation-proft/index.html",
+    "href": "research/gene-regulation-proft/index.html",
+    "title": "Single-Cell Analysis Reveals Mechanisms of Gene Regulation",
+    "section": "",
+    "text": "Through a collaboration with the Proft Pascual-Ahuir lab, I studied the mechanisms of dose-dependent gene regulation in response to environmental stimuli.\nI measured nutrient stress response in single yeast cells using phase and luminescence microscopy combined with microfluidics, enabling precise control of stimulus concentration and timing at the single-cell level."
+  },
+  {
+    "objectID": "research/gene-regulation-proft/index.html#overview",
+    "href": "research/gene-regulation-proft/index.html#overview",
+    "title": "Single-Cell Analysis Reveals Mechanisms of Gene Regulation",
+    "section": "",
+    "text": "Through a collaboration with the Proft Pascual-Ahuir lab, I studied the mechanisms of dose-dependent gene regulation in response to environmental stimuli.\nI measured nutrient stress response in single yeast cells using phase and luminescence microscopy combined with microfluidics, enabling precise control of stimulus concentration and timing at the single-cell level."
+  },
+  {
+    "objectID": "research/gene-regulation-proft/index.html#methods",
+    "href": "research/gene-regulation-proft/index.html#methods",
+    "title": "Single-Cell Analysis Reveals Mechanisms of Gene Regulation",
+    "section": "Methods",
+    "text": "Methods\n\nSingle-cell luminescence and phase microscopy\nMicrofluidic device design and operation\nTime-series image analysis and quantification\nStatistical modeling of dose–response relationships in R"
+  },
+  {
+    "objectID": "research/gene-regulation-proft/index.html#key-findings",
+    "href": "research/gene-regulation-proft/index.html#key-findings",
+    "title": "Single-Cell Analysis Reveals Mechanisms of Gene Regulation",
+    "section": "Key Findings",
+    "text": "Key Findings\nSingle-cell data showed that the graded dose-response behavior of gene expression in response to nutrient stress resulted from the heterogeneous delay in induction. In comparison to osmotic stress where the duration of the induction was shown to be responsible for the graded dose-response. Together, these findings showed that gradual dose-response can be achieved via different regulation principles in budding yeast.\nThe work here is an early demonstration of the power of single-cell measurements and a significant contribution to the field of cellular signaling furthering our understanding of gene regulation."
+  },
+  {
+    "objectID": "research/gene-regulation-proft/index.html#relevant-publications",
+    "href": "research/gene-regulation-proft/index.html#relevant-publications",
+    "title": "Single-Cell Analysis Reveals Mechanisms of Gene Regulation",
+    "section": "Relevant Publications",
+    "text": "Relevant Publications\n\nRienzo A., Poveda-Huertes D., Aydin S., Buchler N.E., Pascual-Ahuir A., Proft M. (2015). Different mechanisms confer gradual control and memory at nutrient- and stress-regulated genes in yeast. Mol Cell Biol, 35:3669–3683."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "I’d love to hear from you!",
+    "section": "",
+    "text": "You can find me online at:\n GitHub     LinkedIn     Bluesky\nOr drop me an email at selcan.aydin @ jax.org"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification\n\n\nHannah B. Dewey, Selcan Aydin, Samuel J. Widmayer, Daniel A. Skelly, Daniel M. Gatti, Steven C. Munger\n\n\nArticle · 2026\n\n\nArticleDOIOpen Access"
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "",
+    "text": "Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification\n\n\nHannah B. Dewey, Selcan Aydin, Samuel J. Widmayer, Daniel A. Skelly, Daniel M. Gatti, Steven C. Munger\n\n\nArticle · 2026\n\n\nArticleDOIOpen Access"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\n\nSystems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells\n\n\nSelcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger\n\n\nG3 Genes Genomes Genetics · 2025\n\n\nArticleDOIOpen Access\n\n\n\n\nCross cell-type systems genetics reveals the influence of eQTL at multiple points in the developmental trajectory of mouse neural progenitor cells\n\n\nSelcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger\n\n\nPreprint · 2025\n\n\nPreprintDOIOpen Access"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\n\nChromosome X Dosage Modulates Development of Aneuploidy in Genetically Diverse Mouse Embryonic Stem Cells\n\n\nAlexander R. Stanton, Selcan Aydin, Daniel A. Skelly, Dylan Stavish, K Léonhard, Seth M. Taapken, Erik McIntire, Matthew Pankratz, Anne Czechanski, Tenneille E. Ludwig, Ted Choi, Steven P. Gygi, Ivana Barbaric, Steven C. Munger, Laura G. Reinholdt, Martín F. Pera\n\n\nPreprint · 2024\n\n\nPreprintDOIOpen Access\n\n\n\n\nAn in vitro neurogenetics platform for precision disease modeling in the mouse\n\n\nDaniel Cortés, Mélanie Escudero, Austin C. Korgan, Arojit Mitra, Alyssa Edwards, Selcan Aydin, Steven C. Munger, Kevin Charland, Zhongwei Zhang, Kristen M.S. O’Connell, Laura G. Reinholdt, Martín F. Pera\n\n\nScience Advances · 2024\n\n\nArticleDOIOpen Access"
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2023",
+    "text": "2023\n\n\nGenetic dissection of the pluripotent proteome through multi-omics data integration\n\n\nSelcan Aydin, Duy T. Pham, Tian Zhang, Gregory R. Keele, Daniel A. Skelly, João A. Paulo, Matthew Pankratz, Ted Choi, Steven P. Gygi, Laura G. Reinholdt, Christopher L. Baker, Gary A. Churchill, Steven C. Munger\n\n\nCell Genomics · 2023\n\n\nArticleDOIOpen Access"
+  },
+  {
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\n\n\nGenetic dissection of the pluripotent proteome through multi-omics data integration\n\n\nSelcan Aydin, Duy T. Pham, Tian Zhang, Gregory R. Keele, Daniel A. Skelly, Matthew Pankratz, Ted Choi, Steven P. Gygi, Laura G. Reinholdt, Christopher L. Baker, Gary A. Churchill, Steven C. Munger\n\n\nPreprint · 2022\n\n\nPreprintDOIOpen Access\n\n\n\n\nAn in vitro neurogenetics platform for precision disease modeling in the mouse\n\n\nDaniel Cortés, Mélanie Escudero, Austin C. Korgan, Alyssa Edwards, Selcan Aydin, Steven C. Munger, Kevin Charland, Zhongwei Zhang, Kristen M.S. O’Connell, Laura G. Reinholdt, Martín F. Pera\n\n\nPreprint · 2022\n\n\nPreprintDOIOpen Access"
+  },
+  {
+    "objectID": "publications.html#section-5",
+    "href": "publications.html#section-5",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\n\n\nNaive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation\n\n\nDaniel Ortmann, Stephanie Brown, Anne Czechanski, Selcan Aydin, Daniele Muraro, Yuanhua Huang, Rute A. Tomaz, Anna Osnato, Giovanni Canu, Brandon T. Wesley, Daniel A. Skelly, Oliver Stegle, Ted Choi, Gary A. Churchill, Christopher L. Baker, Peter J. Rugg‐Gunn, Steven C. Munger, Laura G. Reinholdt, Ludovic Vallier\n\n\nCell stem cell · 2020\n\n\nArticleDOIOpen Access\n\n\n\n\nMapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency\n\n\nDaniel A. Skelly, Anne Czechanski, Candice Byers, Selcan Aydin, Catrina Spruce, Chris Olivier, Kwangbom Choi, Daniel M. Gatti, Narayanan Raghupathy, Gregory R. Keele, Alexander R. Stanton, Matthew Vincent, Stephanie Dion, Ian Greenstein, Matthew Pankratz, Devin K. Porter, Whitney Martin, Callan O’connor, Wenning Qin, Alison H. Harrill, Ted Choi, Gary A. Churchill, Steven C. Munger, Christopher L. Baker, Laura G. Reinholdt\n\n\nCell stem cell · 2020\n\n\nArticleDOIOpen Access"
+  },
+  {
+    "objectID": "publications.html#section-6",
+    "href": "publications.html#section-6",
+    "title": "Publications",
+    "section": "2019",
+    "text": "2019\n\n\nGenetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes\n\n\nDaniel A. Skelly, Anne Czechanski, Candice Byers, Selcan Aydin, Catrina Spruce, Chris Olivier, Kwangbom Choi, Daniel M. Gatti, Narayanan Raghupathy, Alexander R. Stanton, Matthew Vincent, Stephanie Dion, Ian Greenstein, Matthew Pankratz, Devin K. Porter, Whitney Martin, Wenning Qin, Alison H. Harrill, Ted Choi, Gary A. Churchill, Steven C. Munger, Christopher L. Baker, Laura G. Reinholdt\n\n\nPreprint · 2019\n\n\nPreprintDOIOpen Access"
+  },
+  {
+    "objectID": "publications.html#section-7",
+    "href": "publications.html#section-7",
+    "title": "Publications",
+    "section": "2015",
+    "text": "2015\n\n\nDifferent Mechanisms Confer Gradual Control and Memory at Nutrient- and Stress-Regulated Genes in Yeast\n\n\nAlessandro Rienzo, Daniel Poveda-Huertes, Selcan Aydin, Nicolas E. Buchler, Amparo Pascual‐Ahuir, Markus Proft\n\n\nMolecular and Cellular Biology · 2015\n\n\nArticleDOIOpen Access"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF\n\n\n\n\n&lt;p&gt;\nYour browser does not support PDFs. &lt;a href=\"files/SA_CV.pdf\"&gt;Download the PDF&lt;/a&gt; instead.\n&lt;/p&gt;"
+  }
+]

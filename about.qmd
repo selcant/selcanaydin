@@ -1,0 +1,63 @@
+---
+title: "Selcan Aydin"
+subtitle: "Associate Computational Scientist"
+image: assets/avatar.jpg
+about:
+  template: solana
+  image-shape: round
+  image-width: 12em
+  links:
+      - icon: github
+        href: https://github.com/selcant
+        aria-label: GitHub
+      - text: "{{< iconify academicons orcid >}}"
+        href: https://orcid.org/0000-0002-0457-9641
+        aria-label: Orcid
+      - text: "{{< iconify academicons google-scholar >}}"
+        href: https://scholar.google.com
+        aria-label: Google Scholar
+      - icon: linkedin
+        href: https://www.linkedin.com/in/selcanayd/
+        aria-label: LinkedIn
+      - icon: bluesky
+        href: https://bsky.app/profile/selcan.bsky.social
+        aria-label: Bluesky
+      - icon: envelope
+        href: mailto:selcan.aydin@jax.org
+        aria-label: Email
+---
+
+Hello! I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin) in Bar Harbor, Maine, working in the [Munger Lab](https://www.jax.org/research-and-faculty/research-labs/the-munger-lab). Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University in 2017, where I studied the impacts of genetic variation on cellular phenotypes in budding yeast with Drs. Nicolas Buchler and Paul Magwene.
+
+My research now revolves around **quantitative genetics** and **systems biology**, with a particular focus on understanding how genetic variation shapes cell fate decisions and mouse development.
+
+Outside of work I enjoy hiking, gardening, and spending time with my family and our dog Darwin. 🌿
+
+## Interests
+
+-   Quantitative Genetics
+-   Cellular Signaling
+-   Systems Biology
+-   R / Bioinformatics
+
+## Education
+
+**PhD in Biology** · 2017\
+Duke University
+
+**MSc in Systems Biology** · 2010\
+Universität Heidelberg
+
+**BSc in Biological Sciences & Bioengineering** · 2009\
+Sabancı University
+
+## Experience
+
+**Associate Computational Scientist** · 2023–present\
+The Jackson Laboratory, Bar Harbor ME
+
+**Postdoctoral Associate** · 2018–2023\
+The Jackson Laboratory, Bar Harbor ME
+
+**Research Associate** · 2017\
+Duke University, Durham NC

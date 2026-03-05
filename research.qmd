@@ -1,0 +1,11 @@
+---
+title: "Research"
+listing:
+  contents: research/*/index.qmd
+  type: grid
+  grid-columns: 2
+  fields: [image, title, description, categories]
+  sort: "date desc"
+  image-height: "200px"
+page-layout: full
+---

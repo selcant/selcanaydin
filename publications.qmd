@@ -1,0 +1,142 @@
+---
+title: "Publications"
+echo: false
+warning: false
+---
+
+```{r}
+#| label: fetch-publications
+
+library(httr2)
+library(dplyr)
+library(purrr)
+library(stringr)
+
+orcid <- "0000-0002-0457-9641"
+
+author_url <- paste0(
+  "https://api.openalex.org/authors/orcid:", orcid,
+  "?select=id,display_name,works_count"
+)
+author_resp <- request(author_url) |> req_perform() |> resp_body_json()
+author_id   <- author_resp$id
+
+fetch_works <- function(author_id) {
+  base_url <- paste0(
+    "https://api.openalex.org/works",
+    "?filter=authorships.author.id:", author_id,
+    "&select=title,publication_year,type,primary_location,authorships,doi,open_access",
+    "&sort=publication_year:desc",
+    "&per_page=200"
+  )
+  resp    <- request(base_url) |> req_perform() |> resp_body_json()
+  results <- resp$results
+  while (!is.null(resp$meta$next_cursor)) {
+    next_url <- paste0(base_url, "&cursor=", resp$meta$next_cursor)
+    resp     <- request(next_url) |> req_perform() |> resp_body_json()
+    results  <- c(results, resp$results)
+  }
+  results
+}
+
+works_raw <- fetch_works(author_id)
+
+parse_work <- function(w) {
+  title   <- w$title %||% "Untitled"
+  year    <- w$publication_year
+  doi     <- w$doi
+  oa_url  <- w$open_access$oa_url
+  landing <- w$primary_location$landing_page_url
+  journal <- w$primary_location$source$display_name
+  type    <- w$type
+  authors <- map_chr(w$authorships, ~ .x$author$display_name) |>
+    paste(collapse = ", ")
+  url <- oa_url %||% landing %||%
+    if (!is.null(doi)) paste0("https://doi.org/", doi) else NA_character_
+  tibble(title, year, authors, journal, type, doi, url)
+}
+
+pubs <- map(works_raw, parse_work) |>
+  list_rbind() |>
+  mutate(doi_key = if_else(is.na(doi) | doi == "", title, doi)) |>
+  distinct(doi_key, .keep_all = TRUE) |>
+  select(-doi_key) |>
+  # Keep only article-like types (drop datasets, etc.)
+  filter(type %in% c(
+    "article", "journal-article", "preprint", "book-chapter",
+    "proceedings-article", "review", "letter"
+  )) |>
+  arrange(desc(year))
+```
+
+```{r}
+#| label: render-publications
+#| results: asis
+
+# Bold the author's own name wherever it appears
+highlight_author <- function(authors_str, name = "Selcan Aydin") {
+  str_replace(authors_str, fixed(name), paste0("**", name, "**"))
+}
+
+render_pub <- function(row) {
+  title_text <- if (!is.na(row$url)) {
+    paste0("[", row$title, "](", row$url, ")")
+  } else {
+    row$title
+  }
+
+  authors_fmt <- highlight_author(row$authors)
+
+  journal_line <- if (!is.na(row$journal) && row$journal != "") {
+    paste0("*", row$journal, "*")
+  } else {
+    paste0("*", str_to_title(str_replace_all(row$type, "-", " ")), "*")
+  }
+
+  year_str <- if (!is.na(row$year)) as.character(row$year) else "n.d."
+
+  doi_badge <- if (!is.na(row$doi)) {
+    paste0(
+      '<a href="https://doi.org/', row$doi,
+      '" class="pub-badge pub-badge-doi" target="_blank">DOI</a>'
+    )
+  } else ""
+
+  oa_badge <- if (!is.na(row$url) && grepl("^http", row$url)) {
+    paste0(
+      '<a href="', row$url,
+      '" class="pub-badge pub-badge-oa" target="_blank">Open Access</a>'
+    )
+  } else ""
+
+  type_badge <- paste0(
+    '<span class="pub-badge pub-badge-type">',
+    str_to_title(str_replace_all(row$type, "-", " ")),
+    "</span>"
+  )
+
+  cat(paste0(
+    "::: {.pub-card}\n",
+    "::: {.pub-title}\n",
+    title_text, "\n",
+    ":::\n",
+    "::: {.pub-authors}\n",
+    authors_fmt, "\n",
+    ":::\n",
+    "::: {.pub-meta}\n",
+    journal_line, " · ", year_str, "\n",
+    ":::\n",
+    "::: {.pub-badges}\n",
+    type_badge, doi_badge, oa_badge, "\n",
+    ":::\n",
+    ":::\n\n"
+  ))
+}
+
+years <- sort(unique(pubs$year), decreasing = TRUE)
+for (yr in years) {
+  cat(paste0("## ", yr, " {.pub-year}\n\n"))
+  yr_pubs <- filter(pubs, year == yr)
+  pwalk(yr_pubs, function(...) render_pub(tibble(...)))
+}
+```

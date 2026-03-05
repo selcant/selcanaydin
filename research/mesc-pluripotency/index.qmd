@@ -1,0 +1,45 @@
+---
+title: "Genetic variation influences pluripotency"
+description: >
+  How genetic variation shapes ground-state pluripotency in mouse
+  embryonic stem cells using chromatin accessibility, transcript,
+  and protein abundance data across genetically diverse mice.
+date: 2020-08
+categories:
+  - quantitative genetics
+  - stem cells
+  - mouse
+  - chromatin
+image: featured.png
+---
+
+## Overview
+
+In my postdoctoral research at The Jackson Laboratory, I explored the influence of genetic variation on the stability of ground-state pluripotency using mouse embryonic stem cells (mESCs). 
+
+As part of a multi-investigator collaboration, we used genetic mapping on chromatin accessibility, transcript, and protein abundance in a panel of ESCs derived from hundreds of genetically diverse mice. This work reveals how genetic background shapes the molecular landscape of pluripotency.
+ 
+## Methods
+
+-   Differential gene expression analysis 
+-   Multi-omic integration of chromatin, transcript, and protein data
+-   Quantitative trait locus (QTL) mapping
+-   Mediation analysis
+
+## Key Findings
+
+Genetic background significantly influences the maintenance of ground-state pluripotency. Distinct loci affect chromatin accessibility, transcript abundance, and protein levels — often independently — revealing a layered genetic architecture underlying cell identity. 
+
+My findings also highlight the power of multi-omics data integration in revealing the distal impacts of genetic variation. While QTL mapping with individual traits may be limited due to noise introduced by measurement error, data integration can act to consolidate the influence of genetic signals shared across molecular traits and increase detection power.
+
+## Relevant Publications
+
+-   Skelly DA, Czechanski A, Byers C, **Aydin S**, Spruce C, Olivier C, Choi KB, Gatti DM, Raghupathy N, Stanton A, Vincent M, Dion S, Greenstein I, Pankratz M, Porter DK, Martin W, Qi W, Harrill AH, Choi T, Churchill GA, Munger SC, Baker CL, Reinholdt LA. Mapping the effects of genetic variation on chromatin state and gene expression reveals loci that control ground state pluripotency. Cell Stem Cell 2020 Sep 3;27(3):459-469.e8. PubMed PMID: 32795400; DOI: 10.1016/j.stem.2020.07.005; PubMed Central PMCID: PMC7484384.
+
+-   Ortmann D, Brown S, Czechanski A, **Aydin S**, Muraro D, Huang Y, Tomaz RA, Osnato A, Canu G, Wesley BT, Skelly DA, Stegle O, Choi T, Churchill GA, Baker CL, Rugg-Gunn PJ, Munger SC, Reinholdt LG, Vallier L. Naïve pluripotent stem cells exhibit phenotypic variability that is driven by genetic variation. Cell Stem Cell 2020 Sep 3;27(3):470-481.e6. PubMed PMID: 32795399; DOI: 10.1016/j.stem.2020.07.019; PubMed Central PMCID: PMC7487768.
+
+-   **Aydin S**, Pham DT, Zhang T, Keele GR, Skelly DA, Paulo JA, Pankratz M, Choi T, Gygi SP, Reinholdt LG, Baker CL, Churchill GA, Munger SC. Genetic dissection of the pluripotent proteome through multi-omics data integration. Cell Genomics 2023 Mar 23;3(4):100283. PubMed PMID: 37082146; DOI: 10.1016/j.xgen.2023.100283; PubMed Central PMCID: PMC10112288.
+
+See also the very nice preview of our ESC work:
+
+-   D'Antonio M, D'Antonio-Chronowska A, Frazer KA. Revealing Instability: Genetic Variation Underlies Variability in mESC Pluripotency. Cell Stem Cell. 2020 Sep 3;27(3):347-349. doi: 10.1016/j.stem.2020.08.012. PMID: 32888420.

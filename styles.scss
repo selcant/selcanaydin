@@ -1,0 +1,306 @@
+/*-- scss:defaults --*/
+
+// -------------------------------------------------------
+// Fonts
+// -------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fira+Mono:wght@400;500&display=swap');
+
+$font-family-sans-serif:  "Figtree", sans-serif;
+$headings-font-family:    "Figtree", sans-serif;
+$font-family-monospace:   "Fira Mono", monospace;
+$font-size-root:          16px;
+$headings-font-weight:    600;
+$headings-line-height:    1.3;
+
+// -------------------------------------------------------
+// Pemaquid Shoreline color tokens
+// -------------------------------------------------------
+$sa-bg:        #F4F7F9;   // page background
+$sa-surface:   #DDE8EF;   // cards, borders, dividers
+$sa-primary:   #3D7A8A;   // links, buttons, accents
+$sa-secondary: #4E8B6A;   // secondary accent (green)
+$sa-text:      #1D303A;   // body text
+$sa-muted:     #5A7580;   // secondary text, captions
+$sa-dark:      #1D303A;   // navbar, dark surfaces
+
+// -------------------------------------------------------
+// Bootstrap / Quarto variable overrides
+// -------------------------------------------------------
+$body-bg:             $sa-bg;
+$body-color:          $sa-text;
+$primary:             $sa-primary;
+$secondary:           $sa-secondary;
+$link-color:          $sa-primary;
+$link-hover-color:    darken($sa-primary, 10%);
+$link-decoration:     none;
+$link-hover-decoration: underline;
+
+// Navbar
+$navbar-bg:           $sa-dark;
+$navbar-fg:           #a8c4cc;
+$navbar-hl:           #ffffff;
+
+// Footer (background set in rules below via CSS)
+$footer-bg:           $sa-bg;
+
+// Code blocks
+$code-bg:             $sa-surface;
+$code-color:          $sa-primary;
+$code-block-bg:       #1e2e38;
+
+// Borders & radius
+$border-color:        $sa-surface;
+$border-radius:       6px;
+
+/*-- scss:rules --*/
+
+// -------------------------------------------------------
+// Body & typography
+// -------------------------------------------------------
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $sa-text;
+}
+
+p, li {
+  line-height: 1.75;
+}
+
+// Section dividers
+hr {
+  border-color: $sa-surface;
+  opacity: 1;
+}
+
+// -------------------------------------------------------
+// Navbar
+// -------------------------------------------------------
+.navbar {
+  border-bottom: 2px solid darken($sa-dark, 5%);
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  color: $navbar-fg !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: $navbar-hl !important;
+}
+
+// -------------------------------------------------------
+// Links & buttons
+// -------------------------------------------------------
+a {
+  color: $sa-primary;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: darken($sa-primary, 12%);
+}
+
+.btn-primary {
+  background-color: $sa-primary;
+  border-color: $sa-primary;
+}
+
+.btn-primary:hover {
+  background-color: darken($sa-primary, 8%);
+  border-color: darken($sa-primary, 8%);
+}
+
+.btn-outline-primary {
+  border-color: $sa-primary;
+  color: $sa-primary;
+}
+
+.btn-outline-primary:hover {
+  background-color: $sa-primary;
+  color: white;
+}
+
+// -------------------------------------------------------
+// About page (trestles template)
+// -------------------------------------------------------
+#quarto-about-trestles .about-links .about-link {
+  border: 1.5px solid $sa-surface;
+  border-radius: 6px;
+  color: $sa-primary;
+  transition: background 0.2s, color 0.2s;
+}
+
+#quarto-about-trestles .about-links .about-link:hover {
+  background-color: $sa-surface;
+  color: darken($sa-primary, 10%);
+  text-decoration: none;
+}
+
+// -------------------------------------------------------
+// Listing cards (research / projects grid)
+// -------------------------------------------------------
+.card {
+  border: 1px solid $sa-surface;
+  border-radius: 8px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(61, 122, 138, 0.15);
+  transform: translateY(-2px);
+}
+
+.card-title {
+  font-weight: 600;
+  color: $sa-text;
+}
+
+.listing-category {
+  background-color: $sa-surface;
+  color: $sa-muted;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.listing-category:hover {
+  background-color: $sa-primary;
+  color: white;
+}
+
+// -------------------------------------------------------
+// Publications page
+// -------------------------------------------------------
+.publications-list hr {
+  margin: 1.25rem 0;
+}
+
+// -------------------------------------------------------
+// CV iframe
+// -------------------------------------------------------
+.cv-container iframe {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+// -------------------------------------------------------
+// Footer (your existing rules, kept intact)
+// -------------------------------------------------------
+.nav-footer {
+  background-color: #F4F7F9;
+  padding: 1rem 2rem;
+  border-top: 1px solid #DDE8EF;
+}
+
+.nav-footer a {
+  color: #5A7580;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-footer a:hover { color: #3D7A8A; }
+
+/* Center icons — circular hover treatment */
+.nav-footer-center .nav-link {
+  padding: 0.3rem;
+  border-radius: 50%;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-footer-center .nav-link:hover {
+  background-color: #DDE8EF;
+  color: #3D7A8A;
+}
+
+.nav-footer-center .bi { font-size: 1.05rem; }
+
+/* Right nav links */
+.nav-footer-right .nav-link {
+  font-size: 0.82rem;
+  color: #5A7580;
+}
+
+.nav-footer-right .nav-link:hover { color: #3D7A8A; }
+
+// -------------------------------------------------------
+// Publication cards  (publications.qmd + index.qmd)
+// -------------------------------------------------------
+.pub-year {
+  color: $sa-muted;
+  border-bottom: 2px solid $sa-surface;
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.pub-card {
+  background: $sa-bg;
+  border-left: 4px solid $sa-muted;
+  border-radius: 0 $border-radius $border-radius 0;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-left-color: $sa-primary;
+  }
+}
+
+.pub-title {
+  font-size: 0.975rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.3rem;
+}
+
+.pub-authors {
+  font-size: 0.85rem;
+  color: $sa-muted;
+  margin-bottom: 0.25rem;
+}
+
+.pub-meta {
+  font-size: 0.82rem;
+  color: $sa-muted;
+  margin-bottom: 0.4rem;
+}
+
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.pub-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  text-decoration: none !important;
+  letter-spacing: 0.03em;
+
+  &-type {
+    background: $sa-surface;
+    color: $sa-muted;
+  }
+
+  &-doi {
+    background: mix($sa-primary, white, 15%);
+    color: $sa-primary;
+    &:hover { background: $sa-primary; color: white; }
+  }
+
+  &-oa {
+    background: mix($sa-secondary, white, 15%);
+    color: $sa-secondary;
+    &:hover { background: $sa-secondary; color: white; }
+  }
+}

@@ -1,0 +1,14 @@
+---
+title: "I'd love to hear from you!"
+toc: false
+---
+
+You can find me online at:
+
+[{{< fa brands github >}} GitHub](https://github.com/selcant)
+&nbsp;&nbsp;
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/selcanayd/)
+&nbsp;&nbsp;
+[{{< fa brands bluesky >}} Bluesky](https://bsky.app/profile/selcan.bsky.social)
+
+Or drop me an email at [selcan.aydin @ jax.org](mailto:selcan.aydin@jax.org)

@@ -1,0 +1,37 @@
+---
+title: "Single-Cell Analysis Reveals Mechanisms of Gene Regulation"
+description: >
+  Measuring nutrient stress response in single yeast cells using
+  phase and luminescence microscopy and microfluidics to uncover
+  dose-dependent mechanisms of gene regulation.
+date: 2015-11
+categories:
+  - gene regulation
+  - yeast
+  - single-cell
+  - microfluidics
+image: featured.png
+---
+
+## Overview
+
+Through a collaboration with the Proft Pascual-Ahuir lab, I studied the mechanisms of dose-dependent gene regulation in response to environmental stimuli.
+
+I measured nutrient stress response in single yeast cells using phase and luminescence microscopy combined with microfluidics, enabling precise control of stimulus concentration and timing at the single-cell level.
+
+## Methods
+
+-   Single-cell luminescence and phase microscopy
+-   Microfluidic device design and operation
+-   Time-series image analysis and quantification
+-   Statistical modeling of dose–response relationships in R
+
+## Key Findings
+
+Single-cell data showed that the graded dose-response behavior of gene expression in response to nutrient stress resulted from the heterogeneous delay in induction. In comparison to osmotic stress where the duration of the induction was shown to be responsible for the graded dose-response. Together, these findings showed that gradual dose-response can be achieved via different regulation principles in budding yeast.
+
+The work here is an early demonstration of the power of single-cell measurements and a significant contribution to the field of cellular signaling furthering our understanding of gene regulation.
+
+## Relevant Publications
+
+-   Rienzo A., Poveda-Huertes D., Aydin S., Buchler N.E., Pascual-Ahuir A., Proft M. (2015). Different mechanisms confer gradual control and memory at nutrient- and stress-regulated genes in yeast. Mol Cell Biol, 35:3669–3683.
