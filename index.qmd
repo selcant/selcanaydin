@@ -14,7 +14,7 @@ about:
     - text: "{{< iconify academicons orcid >}}"
       href: https://orcid.org/0000-0002-0457-9641
     - text: "{{< iconify academicons google-scholar >}}"
-      href: https://scholar.google.com
+      href: https://scholar.google.com/citations?user=OfDpKQIAAAAJ&hl=en&inst=955605570671304314
     - icon: linkedin
       text: ""
       href: https://www.linkedin.com/in/selcanayd/
@@ -39,7 +39,7 @@ execute:
   freeze: false
 ---
 
-Hello! I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin) in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on **quantitative genetics** and **systems biology** — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my family and our dog Darwin. 🌿
+Hello! I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin) in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on **systems genetics** — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my family and our dog Darwin. 🌿
 
 [Learn more about me →](about.qmd)
 
