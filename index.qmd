@@ -1,122 +1,156 @@
 ---
-title: "Selcan Aydin"
-subtitle: "Associate Computational Scientist · The Jackson Laboratory"
-image: assets/avatar.jpg
-toc: false
-about:
-  template: jolla
-  image-shape: round
-  image-width: 12em
-  links:
-    - icon: github
-      text: ""
-      href: https://github.com/selcant
-    - text: "{{< iconify academicons orcid >}}"
-      href: https://orcid.org/0000-0002-0457-9641
-    - text: "{{< iconify academicons google-scholar >}}"
-      href: https://scholar.google.com/citations?user=OfDpKQIAAAAJ&hl=en&inst=955605570671304314
-    - icon: linkedin
-      text: ""
-      href: https://www.linkedin.com/in/selcanayd/
-    - icon: bluesky
-      text: ""
-      href: https://bsky.app/profile/selcan.bsky.social
-    - icon: envelope
-      text: ""
-      href: mailto:selcan.aydin@jax.org
-listing:
-  - id: recent-research
-    contents: research/*/index.qmd
-    type: grid
-    grid-columns: 2
-    max-items: 2
-    image-height: 180px
-    fields: [image, title, description, categories]
-    sort: "date desc"
-execute:
-  echo: false
-  warning: false
-  freeze: false
+title: "Publications"
+echo: false
+warning: false
 ---
 
-Hello! I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin) in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on **systems genetics** — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my family and our dog Darwin. 🌿
-
-[Learn more about me →](about.qmd)
-
-------------------------------------------------------------------------
-
-## Recent Research
-
-::: {#recent-research}
-:::
-
-[See all research →](research.qmd){.btn .btn-outline-primary .btn-sm}
-
-------------------------------------------------------------------------
-
-## Recent Publications
-
 ```{r}
-#| label: recent-pubs
-
+#| label: fetch-publications
 library(httr2)
 library(dplyr)
 library(purrr)
 library(stringr)
 
-orcid <- "0000-0002-0457-9641"
-
-author_id <- request(paste0(
+orcid     <- "0000-0002-0457-9641"
+author_url <- paste0(
   "https://api.openalex.org/authors/orcid:", orcid,
-  "?select=id"
-)) |> req_perform() |> resp_body_json() |> _$id
+  "?select=id,display_name,works_count"
+)
+author_resp <- request(author_url) |> req_perform() |> resp_body_json()
+author_id   <- author_resp$id
 
-works_raw <- request(paste0(
-  "https://api.openalex.org/works",
-  "?filter=authorships.author.id:", author_id,
-  "&select=title,publication_year,primary_location,authorships,doi,open_access,type",
-  "&sort=publication_year:desc",
-  "&per_page=2"
-)) |> req_perform() |> resp_body_json() |> _$results
-
-render_recent_pub <- function(w) {
-  title   <- w$title %||% "Untitled"
-  year    <- w$publication_year %||% "n.d."
-  doi     <- w$doi
-  oa_url  <- w$open_access$oa_url
-  landing <- w$primary_location$landing_page_url
-  journal <- w$primary_location$source$display_name %||% ""
-  url     <- oa_url %||% landing %||%
-               if (!is.null(doi)) paste0("https://doi.org/", doi) else "#"
-  authors <- map_chr(w$authorships, ~ .x$author$display_name) |>
-    str_replace(fixed("Selcan Aydin"), "**Selcan Aydin**") |>
-    paste(collapse = ", ")
-
-  doi_badge <- if (!is.null(doi)) paste0(
-    '<a href="https://doi.org/', doi,
-    '" class="pub-badge pub-badge-doi" target="_blank">DOI</a>'
-  ) else ""
-  oa_badge <- if (!is.null(oa_url)) paste0(
-    '<a href="', oa_url,
-    '" class="pub-badge pub-badge-oa" target="_blank">Open Access</a>'
-  ) else ""
-
-  cat(paste0(
-    "::: {.pub-card}\n",
-    "::: {.pub-title}\n[", title, "](", url, ")\n:::\n",
-    "::: {.pub-authors}\n", authors, "\n:::\n",
-    "::: {.pub-meta}\n*", journal, "* · ", year, "\n:::\n",
-    "::: {.pub-badges}\n", doi_badge, oa_badge, "\n:::\n",
-    ":::\n\n"
-  ))
+fetch_works <- function(author_id) {
+  base_url <- paste0(
+    "https://api.openalex.org/works",
+    "?filter=authorships.author.id:", author_id,
+    # ── added abstract_inverted_index to the select list ──
+    "&select=title,publication_year,type,primary_location,authorships,doi,open_access,abstract_inverted_index",
+    "&sort=publication_year:desc",
+    "&per_page=200"
+  )
+  resp    <- request(base_url) |> req_perform() |> resp_body_json()
+  results <- resp$results
+  while (!is.null(resp$meta$next_cursor)) {
+    next_url <- paste0(base_url, "&cursor=", resp$meta$next_cursor)
+    resp     <- request(next_url) |> req_perform() |> resp_body_json()
+    results  <- c(results, resp$results)
+  }
+  results
 }
+
+# ── Reconstruct plain-text abstract from OpenAlex inverted index ──────────────
+reconstruct_abstract <- function(inv_index) {
+  if (is.null(inv_index) || length(inv_index) == 0) return(NA_character_)
+  positions <- unlist(inv_index, recursive = FALSE)
+  words     <- rep(names(inv_index), lengths(inv_index))
+  idx       <- order(unlist(inv_index))
+  paste(words[idx], collapse = " ")
+}
+
+works_raw <- fetch_works(author_id)
+
+parse_work <- function(w) {
+  title    <- w$title %||% "Untitled"
+  year     <- w$publication_year
+  doi      <- w$doi
+  oa_url   <- w$open_access$oa_url
+  landing  <- w$primary_location$landing_page_url
+  journal  <- w$primary_location$source$display_name
+  type     <- w$type
+  abstract <- reconstruct_abstract(w$abstract_inverted_index)   # ← new
+  authors  <- map_chr(w$authorships, ~ .x$author$display_name) |>
+    paste(collapse = ", ")
+  url <- oa_url %||% landing %||%
+    if (!is.null(doi)) paste0("https://doi.org/", doi) else NA_character_
+  tibble(title, year, authors, journal, type, abstract, doi, url)
+}
+
+pubs <- map(works_raw, parse_work) |>
+  list_rbind() |>
+  mutate(doi_key = if_else(is.na(doi) | doi == "", title, doi)) |>
+  distinct(doi_key, .keep_all = TRUE) |>
+  select(-doi_key) |>
+  filter(type %in% c(
+    "article", "journal-article", "preprint", "book-chapter",
+    "proceedings-article", "review", "letter"
+  )) |>
+  arrange(desc(year))
 ```
 
 ```{r}
-#| label: render-recent-pubs
+#| label: render-publications
 #| results: asis
 
-walk(works_raw, render_recent_pub)
-```
+highlight_author <- function(authors_str, name = "Selcan Aydin") {
+  str_replace(authors_str, fixed(name), paste0("**", name, "**"))
+}
 
-[See all publications →](publications.qmd){.btn .btn-outline-primary .btn-sm}
+render_pub <- function(row) {
+  # ── Title (linked if URL available) ─────────────────────────────────────────
+  title_text <- if (!is.na(row$url)) {
+    paste0("[", row$title, "](", row$url, ")")
+  } else {
+    row$title
+  }
+
+  authors_fmt  <- highlight_author(row$authors)
+
+  journal_line <- if (!is.na(row$journal) && row$journal != "") {
+    paste0("*", row$journal, "*")
+  } else {
+    paste0("*", str_to_title(str_replace_all(row$type, "-", " ")), "*")
+  }
+
+  year_str <- if (!is.na(row$year)) as.character(row$year) else "n.d."
+
+  # ── Abstract blurb (truncated to ~200 chars, like Silvia's style) ────────────
+  abstract_block <- if (!is.na(row$abstract) && nchar(row$abstract) > 0) {
+    blurb <- if (nchar(row$abstract) > 220) {
+      paste0(str_sub(row$abstract, 1, 220), "…")
+    } else {
+      row$abstract
+    }
+    paste0("::: {.pub-abstract}\n", blurb, "\n:::\n")
+  } else {
+    ""
+  }
+
+  # ── Badges ───────────────────────────────────────────────────────────────────
+  doi_badge <- if (!is.na(row$doi)) {
+    paste0(
+      '<a href="https://doi.org/', row$doi,
+      '" class="pub-badge pub-badge-doi" target="_blank">DOI</a>'
+    )
+  } else ""
+
+  oa_badge <- if (!is.na(row$url) && grepl("^http", row$url)) {
+    paste0(
+      '<a href="', row$url,
+      '" class="pub-badge pub-badge-oa" target="_blank">Open Access</a>'
+    )
+  } else ""
+
+  type_badge <- paste0(
+    '<span class="pub-badge pub-badge-type">',
+    str_to_title(str_replace_all(row$type, "-", " ")),
+    "</span>"
+  )
+
+  cat(paste0(
+    "::: {.pub-card}\n",
+    "::: {.pub-title}\n",    title_text,    "\n:::\n",
+    "::: {.pub-authors}\n",  authors_fmt,   "\n:::\n",
+    "::: {.pub-meta}\n",     journal_line, " · ", year_str, "\n:::\n",
+    abstract_block,                                           # ← new
+    "::: {.pub-badges}\n",   type_badge, doi_badge, oa_badge, "\n:::\n",
+    ":::\n\n"
+  ))
+}
+
+years <- sort(unique(pubs$year), decreasing = TRUE)
+for (yr in years) {
+  cat(paste0("## ", yr, " {.pub-year}\n\n"))
+  yr_pubs <- filter(pubs, year == yr)
+  pwalk(yr_pubs, function(...) render_pub(tibble(...)))
+}
+```
