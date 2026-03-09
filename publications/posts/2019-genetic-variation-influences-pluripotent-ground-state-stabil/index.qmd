@@ -1,0 +1,30 @@
+---
+title: Genetic variation influences pluripotent ground state stability in mouse embryonic
+  stem cells through a hierarchy of molecular phenotypes
+date: '2019-01-01'
+author: Daniel A. Skelly, Anne Czechanski, Candice Byers, Selcan Aydin, Catrina Spruce,
+  Chris Olivier, Kwangbom Choi, Daniel M. Gatti, Narayanan Raghupathy, Alexander R.
+  Stanton, Matthew Vincent, Stephanie Dion, Ian Greenstein, Matthew Pankratz, Devin
+  K. Porter, Whitney Martin, Wenning Qin, Alison H. Harrill, Ted Choi, Gary A. Churchill,
+  Steven C. Munger, Christopher L. Baker, Laura G. Reinholdt
+image: featured.png
+description: ''
+categories:
+- Preprint
+doi: https://doi.org/10.1101/552059
+url: https://www.biorxiv.org/content/biorxiv/early/2019/02/17/552059.full.pdf
+---
+
+::: {.pub-meta}
+ · 2019
+:::
+
+## Abstract
+
+Mouse embryonic stem cells (mESCs) cultured under controlled conditions occupy a stable ground state where pluripotency-associated transcriptional and epigenetic circuitry are highly active. However, mESCs from some genetic backgrounds exhibit metastability, where ground state pluripotency is lost in the absence of ERK1/2 and GSK3 inhibition. We dissected the genetic basis of metastability by profiling gene expression and chromatin accessibility in 185 genetically heterogeneous mESCs. We mapped thousands of loci affecting chromatin accessibility and/or transcript abundance, including eleven instances where distant QTL co-localized in clusters. For one cluster we identified Lifr transcript abundance as the causal intermediate regulating 122 distant genes enriched for roles in maintenance of pluripotency. Joint mediation analysis implicated a single enhancer variant ~10kb upstream of Lifr that alters chromatin accessibility and precipitates a cascade of molecular events affecting maintenance of pluripotency. We validated this hypothesis using reciprocal allele swaps, revealing mechanistic details underlying variability in ground state metastability in mESCs.
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1101/552059){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://www.biorxiv.org/content/biorxiv/early/2019/02/17/552059.full.pdf){.btn .btn-outline-success .btn-sm}
+

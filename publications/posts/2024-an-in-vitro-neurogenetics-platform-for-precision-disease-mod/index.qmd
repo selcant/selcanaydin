@@ -1,0 +1,28 @@
+---
+title: An in vitro neurogenetics platform for precision disease modeling in the mouse
+date: '2024-01-01'
+author: Daniel Cortés, Mélanie Escudero, Austin C. Korgan, Arojit Mitra, Alyssa Edwards,
+  Selcan Aydin, Steven C. Munger, Kevin Charland, Zhongwei Zhang, Kristen M.S. O’Connell,
+  Laura G. Reinholdt, Martín F. Pera
+image: featured.png
+description: ''
+categories:
+- Article
+venue: Science Advances
+doi: https://doi.org/10.1126/sciadv.adj9305
+url: https://www.science.org/doi/pdf/10.1126/sciadv.adj9305?download=true
+---
+
+::: {.pub-meta}
+*Science Advances* · 2024
+:::
+
+## Abstract
+
+The power and scope of disease modeling can be markedly enhanced through the incorporation of broad genetic diversity. The introduction of pathogenic mutations into a single inbred mouse strain sometimes fails to mimic human disease. We describe a cross-species precision disease modeling platform that exploits mouse genetic diversity to bridge cell-based modeling with whole organism analysis. We developed a universal protocol that permitted robust and reproducible neural differentiation of genetically diverse human and mouse pluripotent stem cell lines and then carried out a proof-of-concept study of the neurodevelopmental gene <i>DYRK1A</i>. Results in vitro reliably predicted the effects of genetic background on <i>Dyrk1a</i> loss-of-function phenotypes in vivo. Transcriptomic comparison of responsive and unresponsive strains identified molecular pathways conferring sensitivity or resilience to <i>Dyrk1a1A</i> loss and highlighted differential messenger RNA isoform usage as an important determinant of response. This cross-species strategy provides a powerful tool in the functional analysis of candidate disease variants identified through human genetic studies.
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1126/sciadv.adj9305){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://www.science.org/doi/pdf/10.1126/sciadv.adj9305?download=true){.btn .btn-outline-success .btn-sm}
+

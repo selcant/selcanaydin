@@ -1,0 +1,32 @@
+---
+title: Mapping the Effects of Genetic Variation on Chromatin State and Gene Expression
+  Reveals Loci That Control Ground State Pluripotency
+date: '2020-01-01'
+author: Daniel A. Skelly, Anne Czechanski, Candice Byers, Selcan Aydin, Catrina Spruce,
+  Chris Olivier, Kwangbom Choi, Daniel M. Gatti, Narayanan Raghupathy, Gregory R.
+  Keele, Alexander R. Stanton, Matthew Vincent, Stephanie Dion, Ian Greenstein, Matthew
+  Pankratz, Devin K. Porter, Whitney Martin, Callan O'connor, Wenning Qin, Alison
+  H. Harrill, Ted Choi, Gary A. Churchill, Steven C. Munger, Christopher L. Baker,
+  Laura G. Reinholdt
+image: featured.png
+description: ''
+categories:
+- Article
+venue: Cell stem cell
+doi: https://doi.org/10.1016/j.stem.2020.07.005
+url: http://www.cell.com/article/S193459092030343X/pdf
+---
+
+::: {.pub-meta}
+*Cell stem cell* · 2020
+:::
+
+## Abstract
+
+https://doi.org/10.1016/j.stem.2020.07.005
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1016/j.stem.2020.07.005){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](http://www.cell.com/article/S193459092030343X/pdf){.btn .btn-outline-success .btn-sm}
+

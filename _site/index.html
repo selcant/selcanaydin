@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/avatar.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,65 +69,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-research .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-research'] = new List('listing-recent-research', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -194,133 +134,21 @@ window.Quarto = {
     
 <!-- main -->
 <div class="quarto-about-jolla">
-  <img src="assets/avatar.jpg" class="about-image
-  round " style="height: 12em; width: 12em;">
+  <img src="assets/cartoon.png" class="about-image
+  rectangle " style="width: 750px;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Selcan Aydin</h1>
-<p class="subtitle lead">Associate Computational Scientist · The Jackson Laboratory</p>
+<p class="subtitle lead">Computational Scientist At The Jackson Laboratory</p>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header><main class="content" id="quarto-document-content">
-<p>Hello! I’m a computational scientist at <a href="https://www.jax.org/people/selcan-aydin">The Jackson Laboratory</a> in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D.&nbsp;in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on <strong>systems genetics</strong> — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my family and our dog Darwin. 🌿</p>
+<p>Hello! I’m a researcher, R educator, and computational scientist originally from Istanbul, Turkey, now based in Bar Harbor, Maine. My work focuses on systems genetics — integrating genomic, transcriptomic, and proteomic data across genetically diverse mouse and stem cell models to understand how genetic variation shapes cell fate decisions, development, and disease. I also care deeply about building the next generation of computational scientists, and I teach R workshops and mentor students navigating the intersection of biology and data science.</p>
 <p><a href="./about.html">Learn more about me →</a></p>
-<hr>
-<section id="recent-research" class="level2">
-<h2 data-anchor-id="recent-research">Recent Research</h2>
-<div id="listing-recent-research" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="cXVhbnRpdGF0aXZlJTIwZ2VuZXRpY3MlMkNzdGVtJTIwY2VsbHMlMkNtb3VzZSUyQ2Nocm9tYXRpbg==" data-listing-date-sort="1596254400000" data-listing-file-modified-sort="1772740025191" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="423">
-<a href="./research/mesc-pluripotency/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/mesc-pluripotency/featured.png" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Genetic variation influences pluripotency
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cXVhbnRpdGF0aXZlJTIwZ2VuZXRpY3M='); return false;">quantitative genetics</div>
-<div class="listing-category" onclick="window.quartoListingCategory('c3RlbSUyMGNlbGxz'); return false;">stem cells</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bW91c2U='); return false;">mouse</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y2hyb21hdGlu'); return false;">chromatin</div>
-</div>
-<div class="card-text listing-description delink">
-<p>How genetic variation shapes ground-state pluripotency in mouse embryonic stem cells using chromatin accessibility, transcript, and protein abundance data across genetically…</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="cXVhbnRpdGF0aXZlJTIwZ2VuZXRpY3MlMkN5ZWFzdCUyQ3NpZ25hbGluZyUyMGR5bmFtaWNzJTJDUVRMJTIwbWFwcGluZw==" data-listing-date-sort="1512104400000" data-listing-file-modified-sort="1772740759790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
-<a href="./research/yeast-osmo/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/yeast-osmo/featured.png" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Dissecting the Effects of Genetic Variation on Stress Response
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cXVhbnRpdGF0aXZlJTIwZ2VuZXRpY3M='); return false;">quantitative genetics</div>
-<div class="listing-category" onclick="window.quartoListingCategory('eWVhc3Q='); return false;">yeast</div>
-<div class="listing-category" onclick="window.quartoListingCategory('c2lnbmFsaW5nJTIwZHluYW1pY3M='); return false;">signaling dynamics</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UVRMJTIwbWFwcGluZw=='); return false;">QTL mapping</div>
-</div>
-<div class="card-text listing-description delink">
-<p>Using osmo-adaptation in budding yeast as a model to understand how genetic variation across diverse strains drives differences in signaling dynamics and phenotypic…</p>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><a href="./research.html" class="btn btn-outline-primary btn-sm">See all research →</a></p>
-<hr>
-</section>
-<section id="recent-publications" class="level2">
-<h2 data-anchor-id="recent-publications">Recent Publications</h2>
-<div class="pub-card">
-<div class="pub-title">
-<p><a href="https://www.biorxiv.org/content/biorxiv/early/2026/02/18/2026.02.16.706200.full.pdf">Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification</a></p>
-</div>
-<div class="pub-authors">
-<p>Hannah B. Dewey, <strong>Selcan Aydin</strong>, Samuel J. Widmayer, Daniel A. Skelly, Daniel M. Gatti, Steven C. Munger</p>
-</div>
-<div class="pub-meta">
-<p>** · 2026</p>
-</div>
-<div class="pub-badges">
-<p><a href="https://doi.org/https://doi.org/10.64898/2026.02.16.706200" class="pub-badge pub-badge-doi" target="_blank">DOI</a><a href="https://www.biorxiv.org/content/biorxiv/early/2026/02/18/2026.02.16.706200.full.pdf" class="pub-badge pub-badge-oa" target="_blank">Open Access</a></p>
-</div>
-</div>
-<div class="pub-card">
-<div class="pub-title">
-<p><a href="https://academic.oup.com/g3journal/advance-article-pdf/doi/10.1093/g3journal/jkaf099/63070140/jkaf099.pdf">Systems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells</a></p>
-</div>
-<div class="pub-authors">
-<p><strong>Selcan Aydin</strong>, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger</p>
-</div>
-<div class="pub-meta">
-<p><em>G3 Genes Genomes Genetics</em> · 2025</p>
-</div>
-<div class="pub-badges">
-<p><a href="https://doi.org/https://doi.org/10.1093/g3journal/jkaf099" class="pub-badge pub-badge-doi" target="_blank">DOI</a><a href="https://academic.oup.com/g3journal/advance-article-pdf/doi/10.1093/g3journal/jkaf099/63070140/jkaf099.pdf" class="pub-badge pub-badge-oa" target="_blank">Open Access</a></p>
-</div>
-</div>
-<p><a href="./publications.html" class="btn btn-outline-primary btn-sm">See all publications →</a></p>
 
 
-</section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/selcant" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://orcid.org/0000-0002-0457-9641" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:orcid" aria-label="Icon orcid from academicons Iconify.design set." title="Icon orcid from academicons Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=OfDpKQIAAAAJ&amp;hl=en&amp;inst=955605570671304314" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:google-scholar" aria-label="Icon google-scholar from academicons Iconify.design set." title="Icon google-scholar from academicons Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://www.linkedin.com/in/selcanayd/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://bsky.app/profile/selcan.bsky.social" class="about-link" rel="" target="">
-    <i class="bi bi-bluesky"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="mailto:selcan.aydin@jax.org" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
+</main>  
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

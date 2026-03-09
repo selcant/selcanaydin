@@ -1,0 +1,25 @@
+---
+title: Genetic dissection of the pluripotent proteome through multi-omics data integration
+date: '2023-01-01'
+author: Selcan Aydin, Duy T. Pham, Tian Zhang, Gregory R. Keele, Daniel A. Skelly,
+  João A. Paulo, Matthew Pankratz, Ted Choi, Steven P. Gygi, Laura G. Reinholdt, Christopher
+  L. Baker, Gary A. Churchill, Steven C. Munger
+categories:
+- Article
+venue: Cell Genomics
+doi: https://doi.org/10.1016/j.xgen.2023.100283
+url: https://ars.els-cdn.com/content/image/1-s2.0-S2666979X23000435-fx1_lrg.jpg
+image: Figure4F.png
+---
+
+::: {.pub-meta}
+*Cell Genomics* · 2023
+:::
+
+Genetic background drives phenotypic variability in pluripotent stem cells (PSCs). Most studies to date have used transcript abundance as the primary molecular readout of cell state in PSCs. We performed a comprehensive proteogenomics analysis of 190 genetically diverse mouse embryonic stem cell (mESC) lines. The quantitative proteome is highly variable across lines, and we identified pluripotency-associated pathways that were differentially activated in the proteomics data that were not evident in transcriptome data from the same lines. Integration of protein abundance to transcript levels and chromatin accessibility revealed broad co-variation across molecular layers as well as shared and unique drivers of quantitative variation in pluripotency-associated pathways. Quantitative trait locus (QTL) mapping localized the drivers of these multi-omic signatures to genomic hotspots. This study reveals post-transcriptional mechanisms and genetic interactions that underlie quantitative variability in the pluripotent proteome and provides a regulatory map for mESCs that can provide a basis for future mechanistic studies.
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1016/j.xgen.2023.100283){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://ars.els-cdn.com/content/image/1-s2.0-S2666979X23000435-fx1_lrg.jpg){.btn .btn-outline-success .btn-sm}
+

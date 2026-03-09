@@ -1,0 +1,29 @@
+---
+title: Chromosome X Dosage Modulates Development of Aneuploidy in Genetically Diverse
+  Mouse Embryonic Stem Cells
+date: '2024-01-01'
+author: Alexander R. Stanton, Selcan Aydin, Daniel A. Skelly, Dylan Stavish, K Léonhard,
+  Seth M. Taapken, Erik McIntire, Matthew Pankratz, Anne Czechanski, Tenneille E.
+  Ludwig, Ted Choi, Steven P. Gygi, Ivana Barbaric, Steven C. Munger, Laura G. Reinholdt,
+  Martín F. Pera
+image: featured.png
+description: ''
+categories:
+- Preprint
+doi: https://doi.org/10.1101/2024.06.29.601344
+url: https://www.biorxiv.org/content/biorxiv/early/2024/07/03/2024.06.29.601344.full.pdf
+---
+
+::: {.pub-meta}
+ · 2024
+:::
+
+## Abstract
+
+SUMMARY The genetic integrity of pluripotent stem cells (PSC) is critical to their applications in research and therapy, but it is compromised by frequent development of structural chromosome variants associated with malignancy. Many cell lines exhibit remarkable genetic stability, but little is known about the basis of the known variation in genomic integrity amongst different PSC isolates. Here we identify aneuploidies using RNA-seq and proteomics data from a panel of mouse embryonic stem cell (mESC) lines derived from 170 Diversity Outbred mice. We found 62 lines with detectable aneuploid subpopulations and a subset of originally XX lines that lost one Chromosome X (XO). Strikingly, a much lower proportion of XX lines were aneuploid, compared to XY or XO lines. Two single-cell RNA-seq data sets demonstrated that aneuploid XY DO mESC also show lower Chromosome X gene expression, and a prospective study confirmed that XY mESC accumulate higher aneuploid proportions in culture than isogenic XX lines. We identify potential mechanisms for this protective effect of X chromosome dosage, including our findings that the lines with two active X Chromosomes have a higher proportion of 2-cell-like cells, a state associated with maintenance of genetic integrity of mESC, and that they show differential expression of X-linked tumor suppressor genes associated with the DNA damage response. Highlights First genetic analysis of predisposition to aneuploidy in pluripotent stem cell cultures Chromosomal regions duplicated in aneuploid mouse embryonic stem cells are syntenic with regions overrepresented in human pluripotent stem cell lines bearing recurrent genetic abnormalities X-Chromosome dosage strongly influences susceptibility to aneuploidy in mouse embryonic stem cells and to a lesser degree in human pluripotent stem cells XX mouse embryonic stem cell lines show a higher proportion of cells in 2 cell-like state and higher expression of tumor suppressor genes associated with DNA damage response
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1101/2024.06.29.601344){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://www.biorxiv.org/content/biorxiv/early/2024/07/03/2024.06.29.601344.full.pdf){.btn .btn-outline-success .btn-sm}
+

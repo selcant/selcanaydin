@@ -1,40 +1,55 @@
 ---
 title: "Selcan Aydin"
-subtitle: "Associate Computational Scientist"
 image: assets/avatar.jpg
+page-layout: full
 about:
   template: solana
   image-shape: round
-  image-width: 12em
+  image-width: 20em
   links:
-      - icon: github
-        href: https://github.com/selcant
-        aria-label: GitHub
-      - text: "{{< iconify academicons orcid >}}"
-        href: https://orcid.org/0000-0002-0457-9641
-        aria-label: Orcid
-      - text: "{{< iconify academicons google-scholar >}}"
-        href: https://scholar.google.com/citations?user=OfDpKQIAAAAJ&hl=en&inst=955605570671304314
-        aria-label: Google Scholar
-      - icon: linkedin
-        href: https://www.linkedin.com/in/selcanayd/
-        aria-label: LinkedIn
-      - icon: bluesky
-        href: https://bsky.app/profile/selcan.bsky.social
-        aria-label: Bluesky
-      - icon: envelope
-        href: mailto:selcan.aydin@jax.org
-        aria-label: Email
+    - icon: github
+      href: https://github.com/selcant
+      aria-label: GitHub
+    - text: "{{< iconify academicons orcid >}}"
+      href: https://orcid.org/0000-0002-0457-9641
+      aria-label: Orcid
+    - text: "{{< iconify academicons google-scholar >}}"
+      href: https://scholar.google.com/citations?user=OfDpKQIAAAAJ&hl=en&inst=955605570671304314
+      aria-label: Google Scholar
+    - icon: linkedin
+      href: https://www.linkedin.com/in/selcanayd/
+      aria-label: LinkedIn
+    - icon: bluesky
+      href: https://bsky.app/profile/selcan.bsky.social
+      aria-label: Bluesky
+    - icon: envelope
+      href: mailto:selcan.aydin@jax.org
+      aria-label: Email
+listing:
+  - id: latest-research
+    contents: research/*/index.qmd
+    type: grid
+    grid-columns: 1
+    max-items: 1
+    image-height: 180px
+    fields: [image, title, description, categories]
+    sort: "date desc"
+  - id: latest-publication
+    contents: publications/posts/*/index.qmd
+    type: grid
+    grid-columns: 1
+    max-items: 1
+    date-format: "YYYY"
+    fields: [image, date, title, description, categories, venue]
+    sort: "date desc"
 ---
 
-Hey, I'm glad you're here — thanks for stopping by!
-
-I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin) in Bar Harbor, Maine,
-working in the [Munger Lab](https://www.jax.org/research-and-faculty/research-labs/the-munger-lab).
+I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin)
+in Bar Harbor, Maine, working in the [Munger Lab](https://www.jax.org/research-and-faculty/research-labs/the-munger-lab).
 My research sits at the intersection of **quantitative genetics**, **systems biology**, and **developmental biology**,
 with a focus on how genetic variation shapes gene regulation and cell fate decisions in mice.
 
-Get in touch by [sending me an email](mailto:selcan.aydin@jax.org)!
+**Interests:** Quantitative Genetics & QTL Mapping · Multi-omics Data Integration · Gene Regulatory Networks · Stem Cell & Developmental Biology · R / Bioinformatics
 
 ---
 
@@ -42,96 +57,108 @@ Get in touch by [sending me an email](mailto:selcan.aydin@jax.org)!
 
 **Computational biologist with interdisciplinary roots — from mathematical modeling of cell signaling to systems genetics of development.**
 
-I grew up in Istanbul, Turkey, and my scientific journey has taken me from modeling biochemical networks in Heidelberg,
-to mapping the genetics of stress responses in yeast at Duke, to studying how genetic variation reshapes gene regulatory networks in mouse stem cells and their differentiated progeny.
+:::: {.columns}
 
-Early in my career I realized that I thrive on interdisciplinary questions. My master's at Heidelberg introduced me to
-mathematical modeling of cellular signaling, and my PhD at Duke extended this curiosity to genetic variation — asking
-how differences in DNA sequence alter the way cells respond to environmental signals. Along the way I picked up a broad
-toolkit: high-throughput phenotyping, fluorescence and luminescence microscopy, quantitative genetics methods, and
-computational skills for handling large sequencing datasets. That training planted the seeds of my career as a
-computational geneticist.
+::: {.column width="47%"}
+Even as an undergraduate studying Biological Sciences at Sabancı University,
+I couldn't resist pulling in other fields — I minored in Mathematics, drawn to the idea that biology's big
+questions often need more than one language to answer. That instinct has shaped everything since.
 
-- Ph.D. in Biology · Duke University · 2017
-- M.Sc. in Systems Biology · Universität Heidelberg · 2010
-- B.Sc. in Biological Sciences & Bioengineering · Sabancı University · 2009
+My master's at Heidelberg let me lean fully into that curiosity, training in mathematical modeling of cellular
+signaling through a Systems Biology program. My PhD at Duke took it further, bringing genetics and quantitative
+methods into the picture. Each move felt less like a pivot and more like adding another layer — biology, math,
+modeling, genetics, computation — each one making the questions richer.
 
-### Research at JAX
+At JAX, that same spirit guides my work: using multi-omics approaches and systems genetics to understand how
+genetic variation shapes gene regulation and cell fate. I genuinely love that this field keeps moving, and that
+staying current means always learning something new — whether it's a new statistical framework, a new data type,
+or a new biological system.
+:::
 
-At JAX I use [Diversity Outbred (DO) mice](https://www.jax.org/strain/009376) as a resource for systems genetics,
-mapping how genetic variation shapes gene regulation across multiple molecular layers and cell states. This work
-traced a causal path from a single regulatory variant near *Lifr* through a cascade of molecular changes to
-pluripotency maintenance
-([Skelly, Czechanski, Byers, **Aydin** et al., *Cell Stem Cell*, 2020](https://doi.org/10.1016/j.stem.2020.07.005);
-[Ortmann, Brown, Czechanski, **Aydin** et al., *Cell Stem Cell*, 2020](https://doi.org/10.1016/j.stem.2020.07.019)),
-and showed that jointly integrating chromatin, transcript, and protein data uncovers loci invisible to single-omics
-approaches
-([**Aydin** et al., *Cell Genomics*, 2023](https://doi.org/10.1016/j.xgen.2023.100283)).
-Expanding to neural progenitor cells revealed both conserved and cell-state-specific eQTL, and demonstrated that
-genetic effects established in ESCs can propagate to shape transcriptional variation in downstream differentiated cells
-([**Aydin** et al., *G3*, 2025](https://doi.org/10.1093/g3journal/jkaf099);
-[**Aydin** et al., preprint, 2025](https://doi.org/10.1101/2025.01.24.634514)).
-We also released [QTLretrievR](https://doi.org/10.64898/2026.02.16.706200) to make molecular QTL mapping more
-accessible to the community.
+::: {.column width="6%"}
+::: 
 
-I'm currently applying these approaches to single-cell RNA-seq data and extending our systems genetics framework to
-new biological contexts, including the developing palate. One thing that has remained constant across all of this work
-is a genuine love of learning — both picking up new computational methods as the field evolves, and deepening my
-understanding of the biology along the way.
+::: {.column width="47%"}
+I use [Diversity Outbred (DO) mice](https://www.jax.org/strain/009376) as a resource for systems genetics,
+studying how genetic variation influences gene regulation across molecular layers and cell states. More recently I've been expanding into single-cell approaches and new
+developmental contexts, including the developing palate. We also released
+[QTLretrievR](https://doi.org/10.64898/2026.02.16.706200) to make molecular QTL mapping more accessible
+to the community.
 
-### Teaching, mentoring & outreach
+Making R and computational methods accessible to life scientists matters a lot to me — partly because most of
+my own skills were self-taught, and I know how much the quality of available resources shapes that experience.
+I'm a certified [Posit (RStudio) Tidyverse Instructor](https://education.rstudio.com/trainers/people/aydin+selcan/)
+and a certified Software Carpentry instructor, and I've taught workshops inside JAX and across the broader community.
 
-I am passionate about lowering barriers to computational biology for life scientists — especially skills that people
-find intimidating, like statistics, coding, or working with large datasets. Because most of my own computational skills
-were self-taught, I know firsthand the value of accessible, well-scaffolded training. I am a certified
-[Posit (RStudio) Tidyverse Instructor](https://education.rstudio.com/trainers/people/aydin+selcan/) and a certified
-Software Carpentry instructor, and I have been teaching workshops both within JAX and across the broader community.
+Outside the lab, I stay actively involved in service and outreach — from scientific societies and postdoc
+organizations to community science events. One role I'm particularly glad to have had is serving on the
+**Accessibility Subcommittee** of the [GSA Early Career Scientist Committees](https://genestogenomes.org/early-career-leadership-spotlight-selcan-aydin/),
+working to make research environments more inclusive for scientists with disabilities.
 
-Beyond the classroom, I am committed to making science a more equitable and welcoming place. I served on the
-**Accessibility Subcommittee** of the
-[GSA Early Career Scientist Committees](https://genestogenomes.org/early-career-leadership-spotlight-selcan-aydin/),
-working to identify barriers faced by scientists with disabilities and develop resources to make research, labs, and
-conferences more accessible. I have also been active in supporting foreign researchers navigating visa and immigration
-challenges — an issue close to my own experience as an international scientist — and in raising awareness around
-mental health in academia.
+:::
 
-Outside of work I enjoy hiking, gardening, and spending time with my family and our dog Darwin. 🌿
+::::
+
+<!-- --- -->
+
+<!-- ## Education & Experience -->
+
+<!-- :::: {.columns} -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- #### Education -->
+
+<!-- **PhD in Biology** · 2017   -->
+<!-- Duke University, Durham NC   -->
+<!-- *Advisors: Drs. Nicolas Buchler & Paul Magwene* -->
+
+<!-- **MSc in Systems Biology** · 2010   -->
+<!-- Universität Heidelberg, Germany   -->
+<!-- *Advisor: Dr. Ursula Kummer* -->
+
+<!-- **BSc in Biological Sciences & Bioengineering** · 2009   -->
+<!-- Sabancı University, Istanbul, Turkey   -->
+<!-- *Minor: Mathematics* -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- #### Experience -->
+
+<!-- **Associate Computational Scientist** · 2023–present   -->
+<!-- The Jackson Laboratory, Bar Harbor ME -->
+
+<!-- **Postdoctoral Fellow** · 2018–2023   -->
+<!-- The Jackson Laboratory, Bar Harbor ME   -->
+<!-- *Advisor: Dr. Steven Munger* -->
+
+<!-- **Research Associate** · 2017   -->
+<!-- Duke University, Durham NC -->
+<!-- ::: -->
+
+<!-- :::: -->
 
 ---
 
-## Interests
+## Lately …
 
-- Quantitative Genetics & QTL Mapping
-- Multi-omics Data Integration
-- Gene Regulatory Networks
-- Stem Cell & Developmental Biology
-- R / Bioinformatics
+:::: {.columns}
 
----
+::: {.column width="50%"}
+#### Research
 
-## Education
+::: {#latest-research}
+:::
 
-**PhD in Biology** · 2017\
-Duke University, Durham NC\
-*Advisors: Drs. Nicolas Buchler & Paul Magwene*
+[See all research →](research.qmd){.btn .btn-outline-primary .btn-sm}
+:::
 
-**MSc in Systems Biology** · 2010\
-Universität Heidelberg, Germany\
-*Advisor: Dr. Ursula Kummer*
+::: {.column width="50%"}
+#### Publications
 
-**BSc in Biological Sciences & Bioengineering** · 2009\
-Sabancı University, Istanbul, Turkey
+::: {#latest-publication}
+:::
 
----
+[See all publications →](publications.qmd){.btn .btn-outline-primary .btn-sm}
+:::
 
-## Experience
-
-**Associate Computational Scientist** · 2023–present\
-The Jackson Laboratory, Bar Harbor ME
-
-**Postdoctoral Associate** · 2018–2023\
-The Jackson Laboratory, Bar Harbor ME\
-*Munger Lab — systems genetics of pluripotency*
-
-**Research Associate** · 2017\
-Duke University, Durham NC
+::::

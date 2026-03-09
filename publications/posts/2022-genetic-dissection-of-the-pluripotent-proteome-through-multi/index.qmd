@@ -1,0 +1,27 @@
+---
+title: Genetic dissection of the pluripotent proteome through multi-omics data integration
+date: '2022-01-01'
+author: Selcan Aydin, Duy T. Pham, Tian Zhang, Gregory R. Keele, Daniel A. Skelly,
+  Matthew Pankratz, Ted Choi, Steven P. Gygi, Laura G. Reinholdt, Christopher L. Baker,
+  Gary A. Churchill, Steven C. Munger
+image: featured.png
+description: ''
+categories:
+- Preprint
+doi: https://doi.org/10.1101/2022.04.22.489216
+url: https://www.biorxiv.org/content/biorxiv/early/2022/04/22/2022.04.22.489216.full.pdf
+---
+
+::: {.pub-meta}
+ · 2022
+:::
+
+## Abstract
+
+Genetic background is a major driver of phenotypic variability in pluripotent stem cells (PSCs). Most studies of variation in PSCs have relied on transcript abundance as the primary molecular readout of cell state. However, little is known about how proteins, the primary functional units in the cell, vary across genetically diverse PSCs, how protein abundance relates to variation in other cell characteristics, and how genetic background confers these effects. Here we present a comprehensive genetic study characterizing the pluripotent proteome of 190 unique mouse embryonic stem cell lines (mESCs) derived from genetically heterogeneous Diversity Outbred (DO) mice. The quantitative proteome is highly variable across DO mESCs, and we identified differentially activated pluripotency-associated pathways in the proteomics data that were not evident in transcriptome data from the same cell lines. Comparisons of protein abundance to transcript levels and chromatin accessibility show broad co-variation across molecular layers and variable correlation across samples, with some lines showing high and others low correlation between these multi-omics datasets. Integration of these three molecular data types using multi-omics factor analysis revealed shared and unique drivers of quantitative variation in pluripotency-associated pathways. QTL mapping localized the genetic drivers of this quantitative variation to a number of genomic hotspots, and demonstrated that multi-omics data integration consolidates the influence of genetic signals shared across molecular traits to increase QTL detection power and overcome the limitations inherent in mapping individual molecular features. This study reveals transcriptional and post-transcriptional mechanisms and genetic interactions that underlie quantitative variability in the pluripotent proteome, and in so doing provides a regulatory map for mouse ESCs that can provide a rational basis for future mechanistic studies, including studies of human PSCs.
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1101/2022.04.22.489216){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://www.biorxiv.org/content/biorxiv/early/2022/04/22/2022.04.22.489216.full.pdf){.btn .btn-outline-success .btn-sm}
+

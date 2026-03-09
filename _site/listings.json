@@ -1,11 +1,23 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/about.html",
     "items": [
       "/research/mesc-pluripotency/index.html",
       "/research/yeast-osmo/index.html",
       "/research/gene-regulation-proft/index.html",
-      "/research/math-modeling/index.html"
+      "/research/math-modeling/index.html",
+      "/publications/posts/2026-simplifying-systems-genetics-with-qtlretrievr-an-r-package-f/index.html",
+      "/publications/posts/2025-cross-cell-type-systems-genetics-reveals-the-influence-of-eq/index.html",
+      "/publications/posts/2025-systems-genetics-reveals-the-influence-of-expression-qtls-in/index.html",
+      "/publications/posts/2024-an-in-vitro-neurogenetics-platform-for-precision-disease-mod/index.html",
+      "/publications/posts/2024-chromosome-x-dosage-modulates-development-of-aneuploidy-in-g/index.html",
+      "/publications/posts/2023-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html",
+      "/publications/posts/2022-an-i-in-vitro-i-neurogenetics-platform-for-precision-disease/index.html",
+      "/publications/posts/2022-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html",
+      "/publications/posts/2020-mapping-the-effects-of-genetic-variation-on-chromatin-state/index.html",
+      "/publications/posts/2020-naive-pluripotent-stem-cells-exhibit-phenotypic-variability/index.html",
+      "/publications/posts/2019-genetic-variation-influences-pluripotent-ground-state-stabil/index.html",
+      "/publications/posts/2015-different-mechanisms-confer-gradual-control-and-memory-at-nu/index.html"
     ]
   },
   {
@@ -15,6 +27,23 @@
       "/research/yeast-osmo/index.html",
       "/research/gene-regulation-proft/index.html",
       "/research/math-modeling/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/posts/2026-simplifying-systems-genetics-with-qtlretrievr-an-r-package-f/index.html",
+      "/publications/posts/2025-cross-cell-type-systems-genetics-reveals-the-influence-of-eq/index.html",
+      "/publications/posts/2025-systems-genetics-reveals-the-influence-of-expression-qtls-in/index.html",
+      "/publications/posts/2024-an-in-vitro-neurogenetics-platform-for-precision-disease-mod/index.html",
+      "/publications/posts/2024-chromosome-x-dosage-modulates-development-of-aneuploidy-in-g/index.html",
+      "/publications/posts/2023-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html",
+      "/publications/posts/2022-an-i-in-vitro-i-neurogenetics-platform-for-precision-disease/index.html",
+      "/publications/posts/2022-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html",
+      "/publications/posts/2020-mapping-the-effects-of-genetic-variation-on-chromatin-state/index.html",
+      "/publications/posts/2020-naive-pluripotent-stem-cells-exhibit-phenotypic-variability/index.html",
+      "/publications/posts/2019-genetic-variation-influences-pluripotent-ground-state-stabil/index.html",
+      "/publications/posts/2015-different-mechanisms-confer-gradual-control-and-memory-at-nu/index.html"
     ]
   }
 ]

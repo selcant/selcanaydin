@@ -1,0 +1,28 @@
+---
+title: Different Mechanisms Confer Gradual Control and Memory at Nutrient- and Stress-Regulated
+  Genes in Yeast
+date: '2015-01-01'
+author: Alessandro Rienzo, Daniel Poveda-Huertes, Selcan Aydin, Nicolas E. Buchler,
+  Amparo Pascual‐Ahuir, Markus Proft
+image: featured.png
+description: ''
+categories:
+- Article
+venue: Molecular and Cellular Biology
+doi: https://doi.org/10.1128/mcb.00729-15
+url: https://mcb.asm.org/content/mcb/35/21/3669.full.pdf
+---
+
+::: {.pub-meta}
+*Molecular and Cellular Biology* · 2015
+:::
+
+## Abstract
+
+Cells respond to environmental stimuli by fine-tuned regulation of gene expression. Here we investigated the dose-dependent modulation of gene expression at high temporal resolution in response to nutrient and stress signals in yeast. The GAL1 activity in cell populations is modulated in a well-defined range of galactose concentrations, correlating with a dynamic change of histone remodeling and RNA polymerase II (RNAPII) association. This behavior is the result of a heterogeneous induction delay caused by decreasing inducer concentrations across the population. Chromatin remodeling appears to be the basis for the dynamic GAL1 expression, because mutants with impaired histone dynamics show severely truncated dose-response profiles. In contrast, the GRE2 promoter operates like a rapid off/on switch in response to increasing osmotic stress, with almost constant expression rates and exclusively temporal regulation of histone remodeling and RNAPII occupancy. The Gal3 inducer and the Hog1 mitogen-activated protein (MAP) kinase seem to determine the different dose-response strategies at the two promoters. Accordingly, GAL1 becomes highly sensitive and dose independent if previously stimulated because of residual Gal3 levels, whereas GRE2 expression diminishes upon repeated stimulation due to acquired stress resistance. Our analysis reveals important differences in the way dynamic signals create dose-sensitive gene expression outputs.
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1128/mcb.00729-15){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://mcb.asm.org/content/mcb/35/21/3669.full.pdf){.btn .btn-outline-success .btn-sm}
+

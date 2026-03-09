@@ -1,0 +1,27 @@
+---
+title: 'Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular
+  QTL Identification'
+date: '2026-01-01'
+author: Hannah B. Dewey, Selcan Aydin, Samuel J. Widmayer, Daniel A. Skelly, Daniel
+  M. Gatti, Steven C. Munger
+image: featured.png
+description: ''
+categories:
+- Article
+doi: https://doi.org/10.64898/2026.02.16.706200
+url: https://www.biorxiv.org/content/biorxiv/early/2026/02/18/2026.02.16.706200.full.pdf
+---
+
+::: {.pub-meta}
+ · 2026
+:::
+
+## Abstract
+
+Steven Munger, steven.munger@jax.org.
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.64898/2026.02.16.706200){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://www.biorxiv.org/content/biorxiv/early/2026/02/18/2026.02.16.706200.full.pdf){.btn .btn-outline-success .btn-sm}
+

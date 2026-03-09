@@ -1,0 +1,29 @@
+---
+title: Systems genetics reveals the influence of expression QTLs in mouse embryonic
+  stem cells on transcriptional variation later in differentiated neural progenitor
+  cells
+date: '2025-01-01'
+author: Selcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi,
+  Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger
+image: featured.png
+description: ''
+categories:
+- Article
+venue: G3 Genes Genomes Genetics
+doi: https://doi.org/10.1093/g3journal/jkaf099
+url: https://academic.oup.com/g3journal/advance-article-pdf/doi/10.1093/g3journal/jkaf099/63070140/jkaf099.pdf
+---
+
+::: {.pub-meta}
+*G3 Genes Genomes Genetics* · 2025
+:::
+
+## Abstract
+
+Genetic variation leads to phenotypic variability in pluripotent stem cells that presents challenges for regenerative medicine. Although recent studies have investigated the impact of genetic variation on pluripotency maintenance and differentiation capacity, less is known about how genetic variants affecting the pluripotent state influence gene regulation later in development. Here, we characterized expression of 12,000 genes in a large panel of donor-matched Diversity Outbred mouse embryonic stem cell and mouse neural progenitor cell lines. QTL mapping identified 4,060 expression QTLs in mouse neural progenitor cells, including 2,998 local and 1,062 distant expression QTLs. In a comparison of mouse neural progenitor cell and mouse embryonic stem cell expression QTLs, we found that local expression QTLs were more likely than distant expression QTL to be detected in both cell types. Distant expression QTLs were largely unique to 1 cell type, and we mapped 3 mouse neural progenitor cell-specific expression QTL hotspots on chromosomes 1, 10, and 11. Mediation analysis of the chromosome 1 hotspot identified Rnf152 as the best candidate mediator expressed in mouse neural progenitor cells, while cross-cell-type mediation using mouse embryonic stem cell gene expression along with partial correlation analysis strongly implicated genetic variant(s) affecting Pign expression in the mouse embryonic stem cell state as regulating the mouse neural progenitor cell chromosome 1 hotspot. These findings highlight that local mouse neural progenitor cell expression QTLs are more likely than distant expression QTLs to be shared with mouse embryonic stem cells; distant mouse neural progenitor cell expression QTLs are numerous but largely unique to that cell type, with many colocalizing to mouse neural progenitor cell-specific hotspots; and mediation analysis across cell types suggests that expression of Pign in mouse embryonic stem cells shapes the transcriptome of the more specialized mouse neural progenitor cell state.
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1093/g3journal/jkaf099){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://academic.oup.com/g3journal/advance-article-pdf/doi/10.1093/g3journal/jkaf099/63070140/jkaf099.pdf){.btn .btn-outline-success .btn-sm}
+

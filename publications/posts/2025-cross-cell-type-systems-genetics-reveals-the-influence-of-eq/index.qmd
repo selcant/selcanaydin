@@ -1,0 +1,27 @@
+---
+title: Cross cell-type systems genetics reveals the influence of eQTL at multiple
+  points in the developmental trajectory of mouse neural progenitor cells
+date: '2025-01-01'
+author: Selcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi,
+  Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger
+image: featured.png
+description: ''
+categories:
+- Preprint
+doi: https://doi.org/10.1101/2025.01.24.634514
+url: https://doi.org/10.1101/2025.01.24.634514
+---
+
+::: {.pub-meta}
+ · 2025
+:::
+
+## Abstract
+
+Abstract Genetic variation leads to phenotypic variability in pluripotent stem cells that presents challenges for regenerative medicine. Although recent studies have investigated the impact of genetic variation on pluripotency maintenance and differentiation capacity, less is known about how genetic variants affecting the pluripotent state influence gene regulation in later stages of development. Here, we characterized expression of more than 12,000 genes in 127 donor-matched Diversity Outbred (DO) mouse embryonic stem cell (mESC) and neural progenitor cell (mNPC) lines. Quantitative trait locus (QTL) mapping identified 2,947 expression QTL (eQTL) unique to DO mNPCs and 1,113 eQTL observed in both mNPCs and mESCs with highly concordant allele effects. We mapped three eQTL hotspots on Chromosomes (Chrs) 1, 10, and 11 that were unique to mNPCs. Target genes of the Chr 1 hotspot were overrepresented for those involved in mRNA processing, DNA repair, chromatin organization, protein degradation, and cell cycle. Mediation analysis of the Chr 1 hotspot identified Rnf152 as the best candidate mediator expressed in mNPCs, while cross-cell type mediation using mESC gene expression along with partial correlation analysis strongly implicated genetic variant(s) affecting Pign expression in the mESC state as regulating the mNPC Chr 1 eQTL hotspot. Together these findings highlight that many local eQTL confer similar effects on gene expression in multiple cell states; distant eQTL in DO mNPCs are numerous and largely unique to that cell state, with many co-localizing to mNPC-specific hotspots; and mediation analysis across cell types suggests that expression of Pign early in development (mESCs) shapes the transcriptome of the more specialized mNPC state.
+
+## Links
+
+[{{< fa book >}} DOI](https://doi.org/https://doi.org/10.1101/2025.01.24.634514){.btn .btn-outline-primary .btn-sm}
+[{{< fa lock-open >}} Open Access](https://doi.org/10.1101/2025.01.24.634514){.btn .btn-outline-success .btn-sm}
+

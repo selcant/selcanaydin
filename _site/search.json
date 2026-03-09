@@ -11,56 +11,154 @@
     "href": "about.html",
     "title": "Selcan Aydin",
     "section": "",
-    "text": "Hey, I’m glad you’re here — thanks for stopping by!\nI’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine, working in the Munger Lab. My research sits at the intersection of quantitative genetics, systems biology, and developmental biology, with a focus on how genetic variation shapes gene regulation and cell fate decisions in mice.\nGet in touch by sending me an email!"
+    "text": "I’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine, working in the Munger Lab. My research sits at the intersection of quantitative genetics, systems biology, and developmental biology, with a focus on how genetic variation shapes gene regulation and cell fate decisions in mice.\nInterests: Quantitative Genetics & QTL Mapping · Multi-omics Data Integration · Gene Regulatory Networks · Stem Cell & Developmental Biology · R / Bioinformatics"
   },
   {
     "objectID": "about.html#about-me",
     "href": "about.html#about-me",
     "title": "Selcan Aydin",
     "section": "About me",
-    "text": "About me\nComputational biologist with interdisciplinary roots — from mathematical modeling of cell signaling to systems genetics of development.\nI grew up in Istanbul, Turkey, and my scientific journey has taken me from modeling biochemical networks in Heidelberg, to mapping the genetics of stress responses in yeast at Duke, to studying how genetic variation reshapes gene regulatory networks in mouse stem cells and their differentiated progeny.\nEarly in my career I realized that I thrive on interdisciplinary questions. My master’s at Heidelberg introduced me to mathematical modeling of cellular signaling, and my PhD at Duke extended this curiosity to genetic variation — asking how differences in DNA sequence alter the way cells respond to environmental signals. Along the way I picked up a broad toolkit: high-throughput phenotyping, fluorescence and luminescence microscopy, quantitative genetics methods, and computational skills for handling large sequencing datasets. That training planted the seeds of my career as a computational geneticist.\n\nPh.D. in Biology · Duke University · 2017\nM.Sc. in Systems Biology · Universität Heidelberg · 2010\nB.Sc. in Biological Sciences & Bioengineering · Sabancı University · 2009\n\n\nResearch at JAX\nAt JAX I use Diversity Outbred (DO) mice as a resource for systems genetics, mapping how genetic variation shapes gene regulation across multiple molecular layers and cell states. This work traced a causal path from a single regulatory variant near Lifr through a cascade of molecular changes to pluripotency maintenance (Skelly, Czechanski, Byers, Aydin et al., Cell Stem Cell, 2020; Ortmann, Brown, Czechanski, Aydin et al., Cell Stem Cell, 2020), and showed that jointly integrating chromatin, transcript, and protein data uncovers loci invisible to single-omics approaches (Aydin et al., Cell Genomics, 2023). Expanding to neural progenitor cells revealed both conserved and cell-state-specific eQTL, and demonstrated that genetic effects established in ESCs can propagate to shape transcriptional variation in downstream differentiated cells (Aydin et al., G3, 2025; Aydin et al., preprint, 2025). We also released QTLretrievR to make molecular QTL mapping more accessible to the community.\nI’m currently applying these approaches to single-cell RNA-seq data and extending our systems genetics framework to new biological contexts, including the developing palate. One thing that has remained constant across all of this work is a genuine love of learning — both picking up new computational methods as the field evolves, and deepening my understanding of the biology along the way.\n\n\nTeaching, mentoring & outreach\nI am passionate about lowering barriers to computational biology for life scientists — especially skills that people find intimidating, like statistics, coding, or working with large datasets. Because most of my own computational skills were self-taught, I know firsthand the value of accessible, well-scaffolded training. I am a certified Posit (RStudio) Tidyverse Instructor and a certified Software Carpentry instructor, and I have been teaching workshops both within JAX and across the broader community.\nBeyond the classroom, I am committed to making science a more equitable and welcoming place. I served on the Accessibility Subcommittee of the GSA Early Career Scientist Committees, working to identify barriers faced by scientists with disabilities and develop resources to make research, labs, and conferences more accessible. I have also been active in supporting foreign researchers navigating visa and immigration challenges — an issue close to my own experience as an international scientist — and in raising awareness around mental health in academia.\nOutside of work I enjoy hiking, gardening, and spending time with my family and our dog Darwin. 🌿"
+    "text": "About me\nComputational biologist with interdisciplinary roots — from mathematical modeling of cell signaling to systems genetics of development.\n\n\nEven as an undergraduate studying Biological Sciences at Sabancı University, I couldn’t resist pulling in other fields — I minored in Mathematics, drawn to the idea that biology’s big questions often need more than one language to answer. That instinct has shaped everything since.\nMy master’s at Heidelberg let me lean fully into that curiosity, training in mathematical modeling of cellular signaling through a Systems Biology program. My PhD at Duke took it further, bringing genetics and quantitative methods into the picture. Each move felt less like a pivot and more like adding another layer — biology, math, modeling, genetics, computation — each one making the questions richer.\nAt JAX, that same spirit guides my work: using multi-omics approaches and systems genetics to understand how genetic variation shapes gene regulation and cell fate. I genuinely love that this field keeps moving, and that staying current means always learning something new — whether it’s a new statistical framework, a new data type, or a new biological system.\n\n\nI use Diversity Outbred (DO) mice as a resource for systems genetics, studying how genetic variation influences gene regulation across molecular layers and cell states. More recently I’ve been expanding into single-cell approaches and new developmental contexts, including the developing palate. We also released QTLretrievR to make molecular QTL mapping more accessible to the community.\nMaking R and computational methods accessible to life scientists matters a lot to me — partly because most of my own skills were self-taught, and I know how much the quality of available resources shapes that experience. I’m a certified Posit (RStudio) Tidyverse Instructor and a certified Software Carpentry instructor, and I’ve taught workshops inside JAX and across the broader community.\nOutside the lab, I stay actively involved in service and outreach — from scientific societies and postdoc organizations to community science events. One role I’m particularly glad to have had is serving on the Accessibility Subcommittee of the GSA Early Career Scientist Committees, working to make research environments more inclusive for scientists with disabilities."
   },
   {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
+    "objectID": "about.html#lately",
+    "href": "about.html#lately",
     "title": "Selcan Aydin",
-    "section": "Interests",
-    "text": "Interests\n\nQuantitative Genetics & QTL Mapping\nMulti-omics Data Integration\nGene Regulatory Networks\nStem Cell & Developmental Biology\nR / Bioinformatics"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Selcan Aydin",
-    "section": "Education",
-    "text": "Education\nPhD in Biology · 2017\nDuke University, Durham NC\nAdvisors: Drs. Nicolas Buchler & Paul Magwene\nMSc in Systems Biology · 2010\nUniversität Heidelberg, Germany\nAdvisor: Dr. Ursula Kummer\nBSc in Biological Sciences & Bioengineering · 2009\nSabancı University, Istanbul, Turkey"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Selcan Aydin",
-    "section": "Experience",
-    "text": "Experience\nAssociate Computational Scientist · 2023–present\nThe Jackson Laboratory, Bar Harbor ME\nPostdoctoral Associate · 2018–2023\nThe Jackson Laboratory, Bar Harbor ME\nMunger Lab — systems genetics of pluripotency\nResearch Associate · 2017\nDuke University, Durham NC"
+    "section": "Lately …",
+    "text": "Lately …\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\n\nGenetic variation influences pluripotency\n\n\nquantitative genetics\nstem cells\nmouse\nchromatin\n\n\nHow genetic variation shapes ground-state pluripotency in mouse embryonic stem cells using chromatin accessibility, transcript, and protein abundance data across genetically…\n\n\n\n\n\nNo matching items\n\nSee all research →\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\n\nSimplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification\n\n\nArticle\n\n\n\n\n\n\n2026\n\n\n\n\n\nvenue\n\n\n \n\n\n\n\n\n\n\nNo matching items\n\nSee all publications →"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Selcan Aydin",
     "section": "",
-    "text": "Hello! I’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on systems genetics — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my family and our dog Darwin. 🌿\nLearn more about me →"
+    "text": "Hello! I’m a researcher, R educator, and computational scientist originally from Istanbul, Turkey, now based in Bar Harbor, Maine. My work focuses on systems genetics — integrating genomic, transcriptomic, and proteomic data across genetically diverse mouse and stem cell models to understand how genetic variation shapes cell fate decisions, development, and disease. I also care deeply about building the next generation of computational scientists, and I teach R workshops and mentor students navigating the intersection of biology and data science.\nLearn more about me →"
   },
   {
-    "objectID": "index.html#recent-research",
-    "href": "index.html#recent-research",
-    "title": "Selcan Aydin",
-    "section": "Recent Research",
-    "text": "Recent Research\n\n\n\n\n\n\n\n\n\n\nGenetic variation influences pluripotency\n\n\nquantitative genetics\nstem cells\nmouse\nchromatin\n\n\nHow genetic variation shapes ground-state pluripotency in mouse embryonic stem cells using chromatin accessibility, transcript, and protein abundance data across genetically…\n\n\n\n\n\n\n\n\n\n\n\n\nDissecting the Effects of Genetic Variation on Stress Response\n\n\nquantitative genetics\nyeast\nsignaling dynamics\nQTL mapping\n\n\nUsing osmo-adaptation in budding yeast as a model to understand how genetic variation across diverse strains drives differences in signaling dynamics and phenotypic…\n\n\n\n\n\nNo matching items\n\nSee all research →"
+    "objectID": "publications/posts/2020-naive-pluripotent-stem-cells-exhibit-phenotypic-variability/index.html",
+    "href": "publications/posts/2020-naive-pluripotent-stem-cells-exhibit-phenotypic-variability/index.html",
+    "title": "Naive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation",
+    "section": "",
+    "text": "Cell stem cell · 2020"
   },
   {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
-    "title": "Selcan Aydin",
-    "section": "Recent Publications",
-    "text": "Recent Publications\n\n\nSimplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification\n\n\nHannah B. Dewey, Selcan Aydin, Samuel J. Widmayer, Daniel A. Skelly, Daniel M. Gatti, Steven C. Munger\n\n\n** · 2026\n\n\nDOIOpen Access\n\n\n\n\nSystems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells\n\n\nSelcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger\n\n\nG3 Genes Genomes Genetics · 2025\n\n\nDOIOpen Access\n\n\nSee all publications →"
+    "objectID": "publications/posts/2020-naive-pluripotent-stem-cells-exhibit-phenotypic-variability/index.html#abstract",
+    "href": "publications/posts/2020-naive-pluripotent-stem-cells-exhibit-phenotypic-variability/index.html#abstract",
+    "title": "Naive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation",
+    "section": "Abstract",
+    "text": "Abstract\nhttps://doi.org/10.1016/j.stem.2020.07.019"
+  },
+  {
+    "objectID": "publications/posts/2020-naive-pluripotent-stem-cells-exhibit-phenotypic-variability/index.html#links",
+    "href": "publications/posts/2020-naive-pluripotent-stem-cells-exhibit-phenotypic-variability/index.html#links",
+    "title": "Naive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2024-an-in-vitro-neurogenetics-platform-for-precision-disease-mod/index.html",
+    "href": "publications/posts/2024-an-in-vitro-neurogenetics-platform-for-precision-disease-mod/index.html",
+    "title": "An in vitro neurogenetics platform for precision disease modeling in the mouse",
+    "section": "",
+    "text": "Science Advances · 2024"
+  },
+  {
+    "objectID": "publications/posts/2024-an-in-vitro-neurogenetics-platform-for-precision-disease-mod/index.html#abstract",
+    "href": "publications/posts/2024-an-in-vitro-neurogenetics-platform-for-precision-disease-mod/index.html#abstract",
+    "title": "An in vitro neurogenetics platform for precision disease modeling in the mouse",
+    "section": "Abstract",
+    "text": "Abstract\nThe power and scope of disease modeling can be markedly enhanced through the incorporation of broad genetic diversity. The introduction of pathogenic mutations into a single inbred mouse strain sometimes fails to mimic human disease. We describe a cross-species precision disease modeling platform that exploits mouse genetic diversity to bridge cell-based modeling with whole organism analysis. We developed a universal protocol that permitted robust and reproducible neural differentiation of genetically diverse human and mouse pluripotent stem cell lines and then carried out a proof-of-concept study of the neurodevelopmental gene DYRK1A. Results in vitro reliably predicted the effects of genetic background on Dyrk1a loss-of-function phenotypes in vivo. Transcriptomic comparison of responsive and unresponsive strains identified molecular pathways conferring sensitivity or resilience to Dyrk1a1A loss and highlighted differential messenger RNA isoform usage as an important determinant of response. This cross-species strategy provides a powerful tool in the functional analysis of candidate disease variants identified through human genetic studies."
+  },
+  {
+    "objectID": "publications/posts/2024-an-in-vitro-neurogenetics-platform-for-precision-disease-mod/index.html#links",
+    "href": "publications/posts/2024-an-in-vitro-neurogenetics-platform-for-precision-disease-mod/index.html#links",
+    "title": "An in vitro neurogenetics platform for precision disease modeling in the mouse",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2025-cross-cell-type-systems-genetics-reveals-the-influence-of-eq/index.html",
+    "href": "publications/posts/2025-cross-cell-type-systems-genetics-reveals-the-influence-of-eq/index.html",
+    "title": "Cross cell-type systems genetics reveals the influence of eQTL at multiple points in the developmental trajectory of mouse neural progenitor cells",
+    "section": "",
+    "text": "· 2025"
+  },
+  {
+    "objectID": "publications/posts/2025-cross-cell-type-systems-genetics-reveals-the-influence-of-eq/index.html#abstract",
+    "href": "publications/posts/2025-cross-cell-type-systems-genetics-reveals-the-influence-of-eq/index.html#abstract",
+    "title": "Cross cell-type systems genetics reveals the influence of eQTL at multiple points in the developmental trajectory of mouse neural progenitor cells",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract Genetic variation leads to phenotypic variability in pluripotent stem cells that presents challenges for regenerative medicine. Although recent studies have investigated the impact of genetic variation on pluripotency maintenance and differentiation capacity, less is known about how genetic variants affecting the pluripotent state influence gene regulation in later stages of development. Here, we characterized expression of more than 12,000 genes in 127 donor-matched Diversity Outbred (DO) mouse embryonic stem cell (mESC) and neural progenitor cell (mNPC) lines. Quantitative trait locus (QTL) mapping identified 2,947 expression QTL (eQTL) unique to DO mNPCs and 1,113 eQTL observed in both mNPCs and mESCs with highly concordant allele effects. We mapped three eQTL hotspots on Chromosomes (Chrs) 1, 10, and 11 that were unique to mNPCs. Target genes of the Chr 1 hotspot were overrepresented for those involved in mRNA processing, DNA repair, chromatin organization, protein degradation, and cell cycle. Mediation analysis of the Chr 1 hotspot identified Rnf152 as the best candidate mediator expressed in mNPCs, while cross-cell type mediation using mESC gene expression along with partial correlation analysis strongly implicated genetic variant(s) affecting Pign expression in the mESC state as regulating the mNPC Chr 1 eQTL hotspot. Together these findings highlight that many local eQTL confer similar effects on gene expression in multiple cell states; distant eQTL in DO mNPCs are numerous and largely unique to that cell state, with many co-localizing to mNPC-specific hotspots; and mediation analysis across cell types suggests that expression of Pign early in development (mESCs) shapes the transcriptome of the more specialized mNPC state."
+  },
+  {
+    "objectID": "publications/posts/2025-cross-cell-type-systems-genetics-reveals-the-influence-of-eq/index.html#links",
+    "href": "publications/posts/2025-cross-cell-type-systems-genetics-reveals-the-influence-of-eq/index.html#links",
+    "title": "Cross cell-type systems genetics reveals the influence of eQTL at multiple points in the developmental trajectory of mouse neural progenitor cells",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2020-mapping-the-effects-of-genetic-variation-on-chromatin-state/index.html",
+    "href": "publications/posts/2020-mapping-the-effects-of-genetic-variation-on-chromatin-state/index.html",
+    "title": "Mapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency",
+    "section": "",
+    "text": "Cell stem cell · 2020"
+  },
+  {
+    "objectID": "publications/posts/2020-mapping-the-effects-of-genetic-variation-on-chromatin-state/index.html#abstract",
+    "href": "publications/posts/2020-mapping-the-effects-of-genetic-variation-on-chromatin-state/index.html#abstract",
+    "title": "Mapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency",
+    "section": "Abstract",
+    "text": "Abstract\nhttps://doi.org/10.1016/j.stem.2020.07.005"
+  },
+  {
+    "objectID": "publications/posts/2020-mapping-the-effects-of-genetic-variation-on-chromatin-state/index.html#links",
+    "href": "publications/posts/2020-mapping-the-effects-of-genetic-variation-on-chromatin-state/index.html#links",
+    "title": "Mapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2015-different-mechanisms-confer-gradual-control-and-memory-at-nu/index.html",
+    "href": "publications/posts/2015-different-mechanisms-confer-gradual-control-and-memory-at-nu/index.html",
+    "title": "Different Mechanisms Confer Gradual Control and Memory at Nutrient- and Stress-Regulated Genes in Yeast",
+    "section": "",
+    "text": "Molecular and Cellular Biology · 2015"
+  },
+  {
+    "objectID": "publications/posts/2015-different-mechanisms-confer-gradual-control-and-memory-at-nu/index.html#abstract",
+    "href": "publications/posts/2015-different-mechanisms-confer-gradual-control-and-memory-at-nu/index.html#abstract",
+    "title": "Different Mechanisms Confer Gradual Control and Memory at Nutrient- and Stress-Regulated Genes in Yeast",
+    "section": "Abstract",
+    "text": "Abstract\nCells respond to environmental stimuli by fine-tuned regulation of gene expression. Here we investigated the dose-dependent modulation of gene expression at high temporal resolution in response to nutrient and stress signals in yeast. The GAL1 activity in cell populations is modulated in a well-defined range of galactose concentrations, correlating with a dynamic change of histone remodeling and RNA polymerase II (RNAPII) association. This behavior is the result of a heterogeneous induction delay caused by decreasing inducer concentrations across the population. Chromatin remodeling appears to be the basis for the dynamic GAL1 expression, because mutants with impaired histone dynamics show severely truncated dose-response profiles. In contrast, the GRE2 promoter operates like a rapid off/on switch in response to increasing osmotic stress, with almost constant expression rates and exclusively temporal regulation of histone remodeling and RNAPII occupancy. The Gal3 inducer and the Hog1 mitogen-activated protein (MAP) kinase seem to determine the different dose-response strategies at the two promoters. Accordingly, GAL1 becomes highly sensitive and dose independent if previously stimulated because of residual Gal3 levels, whereas GRE2 expression diminishes upon repeated stimulation due to acquired stress resistance. Our analysis reveals important differences in the way dynamic signals create dose-sensitive gene expression outputs."
+  },
+  {
+    "objectID": "publications/posts/2015-different-mechanisms-confer-gradual-control-and-memory-at-nu/index.html#links",
+    "href": "publications/posts/2015-different-mechanisms-confer-gradual-control-and-memory-at-nu/index.html#links",
+    "title": "Different Mechanisms Confer Gradual Control and Memory at Nutrient- and Stress-Regulated Genes in Yeast",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2022-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html",
+    "href": "publications/posts/2022-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html",
+    "title": "Genetic dissection of the pluripotent proteome through multi-omics data integration",
+    "section": "",
+    "text": "· 2022"
+  },
+  {
+    "objectID": "publications/posts/2022-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html#abstract",
+    "href": "publications/posts/2022-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html#abstract",
+    "title": "Genetic dissection of the pluripotent proteome through multi-omics data integration",
+    "section": "Abstract",
+    "text": "Abstract\nGenetic background is a major driver of phenotypic variability in pluripotent stem cells (PSCs). Most studies of variation in PSCs have relied on transcript abundance as the primary molecular readout of cell state. However, little is known about how proteins, the primary functional units in the cell, vary across genetically diverse PSCs, how protein abundance relates to variation in other cell characteristics, and how genetic background confers these effects. Here we present a comprehensive genetic study characterizing the pluripotent proteome of 190 unique mouse embryonic stem cell lines (mESCs) derived from genetically heterogeneous Diversity Outbred (DO) mice. The quantitative proteome is highly variable across DO mESCs, and we identified differentially activated pluripotency-associated pathways in the proteomics data that were not evident in transcriptome data from the same cell lines. Comparisons of protein abundance to transcript levels and chromatin accessibility show broad co-variation across molecular layers and variable correlation across samples, with some lines showing high and others low correlation between these multi-omics datasets. Integration of these three molecular data types using multi-omics factor analysis revealed shared and unique drivers of quantitative variation in pluripotency-associated pathways. QTL mapping localized the genetic drivers of this quantitative variation to a number of genomic hotspots, and demonstrated that multi-omics data integration consolidates the influence of genetic signals shared across molecular traits to increase QTL detection power and overcome the limitations inherent in mapping individual molecular features. This study reveals transcriptional and post-transcriptional mechanisms and genetic interactions that underlie quantitative variability in the pluripotent proteome, and in so doing provides a regulatory map for mouse ESCs that can provide a rational basis for future mechanistic studies, including studies of human PSCs."
+  },
+  {
+    "objectID": "publications/posts/2022-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html#links",
+    "href": "publications/posts/2022-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html#links",
+    "title": "Genetic dissection of the pluripotent proteome through multi-omics data integration",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
   },
   {
     "objectID": "research.html",
@@ -210,67 +308,130 @@
     "text": "You can find me online at:\n GitHub     LinkedIn     Bluesky\nOr drop me an email at selcan.aydin @ jax.org"
   },
   {
+    "objectID": "publications/posts/2025-systems-genetics-reveals-the-influence-of-expression-qtls-in/index.html",
+    "href": "publications/posts/2025-systems-genetics-reveals-the-influence-of-expression-qtls-in/index.html",
+    "title": "Systems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells",
+    "section": "",
+    "text": "G3 Genes Genomes Genetics · 2025"
+  },
+  {
+    "objectID": "publications/posts/2025-systems-genetics-reveals-the-influence-of-expression-qtls-in/index.html#abstract",
+    "href": "publications/posts/2025-systems-genetics-reveals-the-influence-of-expression-qtls-in/index.html#abstract",
+    "title": "Systems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells",
+    "section": "Abstract",
+    "text": "Abstract\nGenetic variation leads to phenotypic variability in pluripotent stem cells that presents challenges for regenerative medicine. Although recent studies have investigated the impact of genetic variation on pluripotency maintenance and differentiation capacity, less is known about how genetic variants affecting the pluripotent state influence gene regulation later in development. Here, we characterized expression of 12,000 genes in a large panel of donor-matched Diversity Outbred mouse embryonic stem cell and mouse neural progenitor cell lines. QTL mapping identified 4,060 expression QTLs in mouse neural progenitor cells, including 2,998 local and 1,062 distant expression QTLs. In a comparison of mouse neural progenitor cell and mouse embryonic stem cell expression QTLs, we found that local expression QTLs were more likely than distant expression QTL to be detected in both cell types. Distant expression QTLs were largely unique to 1 cell type, and we mapped 3 mouse neural progenitor cell-specific expression QTL hotspots on chromosomes 1, 10, and 11. Mediation analysis of the chromosome 1 hotspot identified Rnf152 as the best candidate mediator expressed in mouse neural progenitor cells, while cross-cell-type mediation using mouse embryonic stem cell gene expression along with partial correlation analysis strongly implicated genetic variant(s) affecting Pign expression in the mouse embryonic stem cell state as regulating the mouse neural progenitor cell chromosome 1 hotspot. These findings highlight that local mouse neural progenitor cell expression QTLs are more likely than distant expression QTLs to be shared with mouse embryonic stem cells; distant mouse neural progenitor cell expression QTLs are numerous but largely unique to that cell type, with many colocalizing to mouse neural progenitor cell-specific hotspots; and mediation analysis across cell types suggests that expression of Pign in mouse embryonic stem cells shapes the transcriptome of the more specialized mouse neural progenitor cell state."
+  },
+  {
+    "objectID": "publications/posts/2025-systems-genetics-reveals-the-influence-of-expression-qtls-in/index.html#links",
+    "href": "publications/posts/2025-systems-genetics-reveals-the-influence-of-expression-qtls-in/index.html#links",
+    "title": "Systems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2026-simplifying-systems-genetics-with-qtlretrievr-an-r-package-f/index.html",
+    "href": "publications/posts/2026-simplifying-systems-genetics-with-qtlretrievr-an-r-package-f/index.html",
+    "title": "Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification",
+    "section": "",
+    "text": "· 2026"
+  },
+  {
+    "objectID": "publications/posts/2026-simplifying-systems-genetics-with-qtlretrievr-an-r-package-f/index.html#abstract",
+    "href": "publications/posts/2026-simplifying-systems-genetics-with-qtlretrievr-an-r-package-f/index.html#abstract",
+    "title": "Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification",
+    "section": "Abstract",
+    "text": "Abstract\nSteven Munger, steven.munger@jax.org."
+  },
+  {
+    "objectID": "publications/posts/2026-simplifying-systems-genetics-with-qtlretrievr-an-r-package-f/index.html#links",
+    "href": "publications/posts/2026-simplifying-systems-genetics-with-qtlretrievr-an-r-package-f/index.html#links",
+    "title": "Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2023-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html",
+    "href": "publications/posts/2023-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html",
+    "title": "Genetic dissection of the pluripotent proteome through multi-omics data integration",
+    "section": "",
+    "text": "Cell Genomics · 2023\nGenetic background drives phenotypic variability in pluripotent stem cells (PSCs). Most studies to date have used transcript abundance as the primary molecular readout of cell state in PSCs. We performed a comprehensive proteogenomics analysis of 190 genetically diverse mouse embryonic stem cell (mESC) lines. The quantitative proteome is highly variable across lines, and we identified pluripotency-associated pathways that were differentially activated in the proteomics data that were not evident in transcriptome data from the same lines. Integration of protein abundance to transcript levels and chromatin accessibility revealed broad co-variation across molecular layers as well as shared and unique drivers of quantitative variation in pluripotency-associated pathways. Quantitative trait locus (QTL) mapping localized the drivers of these multi-omic signatures to genomic hotspots. This study reveals post-transcriptional mechanisms and genetic interactions that underlie quantitative variability in the pluripotent proteome and provides a regulatory map for mESCs that can provide a basis for future mechanistic studies."
+  },
+  {
+    "objectID": "publications/posts/2023-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html#links",
+    "href": "publications/posts/2023-genetic-dissection-of-the-pluripotent-proteome-through-multi/index.html#links",
+    "title": "Genetic dissection of the pluripotent proteome through multi-omics data integration",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2019-genetic-variation-influences-pluripotent-ground-state-stabil/index.html",
+    "href": "publications/posts/2019-genetic-variation-influences-pluripotent-ground-state-stabil/index.html",
+    "title": "Genetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes",
+    "section": "",
+    "text": "· 2019"
+  },
+  {
+    "objectID": "publications/posts/2019-genetic-variation-influences-pluripotent-ground-state-stabil/index.html#abstract",
+    "href": "publications/posts/2019-genetic-variation-influences-pluripotent-ground-state-stabil/index.html#abstract",
+    "title": "Genetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes",
+    "section": "Abstract",
+    "text": "Abstract\nMouse embryonic stem cells (mESCs) cultured under controlled conditions occupy a stable ground state where pluripotency-associated transcriptional and epigenetic circuitry are highly active. However, mESCs from some genetic backgrounds exhibit metastability, where ground state pluripotency is lost in the absence of ERK1/2 and GSK3 inhibition. We dissected the genetic basis of metastability by profiling gene expression and chromatin accessibility in 185 genetically heterogeneous mESCs. We mapped thousands of loci affecting chromatin accessibility and/or transcript abundance, including eleven instances where distant QTL co-localized in clusters. For one cluster we identified Lifr transcript abundance as the causal intermediate regulating 122 distant genes enriched for roles in maintenance of pluripotency. Joint mediation analysis implicated a single enhancer variant ~10kb upstream of Lifr that alters chromatin accessibility and precipitates a cascade of molecular events affecting maintenance of pluripotency. We validated this hypothesis using reciprocal allele swaps, revealing mechanistic details underlying variability in ground state metastability in mESCs."
+  },
+  {
+    "objectID": "publications/posts/2019-genetic-variation-influences-pluripotent-ground-state-stabil/index.html#links",
+    "href": "publications/posts/2019-genetic-variation-influences-pluripotent-ground-state-stabil/index.html#links",
+    "title": "Genetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2024-chromosome-x-dosage-modulates-development-of-aneuploidy-in-g/index.html",
+    "href": "publications/posts/2024-chromosome-x-dosage-modulates-development-of-aneuploidy-in-g/index.html",
+    "title": "Chromosome X Dosage Modulates Development of Aneuploidy in Genetically Diverse Mouse Embryonic Stem Cells",
+    "section": "",
+    "text": "· 2024"
+  },
+  {
+    "objectID": "publications/posts/2024-chromosome-x-dosage-modulates-development-of-aneuploidy-in-g/index.html#abstract",
+    "href": "publications/posts/2024-chromosome-x-dosage-modulates-development-of-aneuploidy-in-g/index.html#abstract",
+    "title": "Chromosome X Dosage Modulates Development of Aneuploidy in Genetically Diverse Mouse Embryonic Stem Cells",
+    "section": "Abstract",
+    "text": "Abstract\nSUMMARY The genetic integrity of pluripotent stem cells (PSC) is critical to their applications in research and therapy, but it is compromised by frequent development of structural chromosome variants associated with malignancy. Many cell lines exhibit remarkable genetic stability, but little is known about the basis of the known variation in genomic integrity amongst different PSC isolates. Here we identify aneuploidies using RNA-seq and proteomics data from a panel of mouse embryonic stem cell (mESC) lines derived from 170 Diversity Outbred mice. We found 62 lines with detectable aneuploid subpopulations and a subset of originally XX lines that lost one Chromosome X (XO). Strikingly, a much lower proportion of XX lines were aneuploid, compared to XY or XO lines. Two single-cell RNA-seq data sets demonstrated that aneuploid XY DO mESC also show lower Chromosome X gene expression, and a prospective study confirmed that XY mESC accumulate higher aneuploid proportions in culture than isogenic XX lines. We identify potential mechanisms for this protective effect of X chromosome dosage, including our findings that the lines with two active X Chromosomes have a higher proportion of 2-cell-like cells, a state associated with maintenance of genetic integrity of mESC, and that they show differential expression of X-linked tumor suppressor genes associated with the DNA damage response. Highlights First genetic analysis of predisposition to aneuploidy in pluripotent stem cell cultures Chromosomal regions duplicated in aneuploid mouse embryonic stem cells are syntenic with regions overrepresented in human pluripotent stem cell lines bearing recurrent genetic abnormalities X-Chromosome dosage strongly influences susceptibility to aneuploidy in mouse embryonic stem cells and to a lesser degree in human pluripotent stem cells XX mouse embryonic stem cell lines show a higher proportion of cells in 2 cell-like state and higher expression of tumor suppressor genes associated with DNA damage response"
+  },
+  {
+    "objectID": "publications/posts/2024-chromosome-x-dosage-modulates-development-of-aneuploidy-in-g/index.html#links",
+    "href": "publications/posts/2024-chromosome-x-dosage-modulates-development-of-aneuploidy-in-g/index.html#links",
+    "title": "Chromosome X Dosage Modulates Development of Aneuploidy in Genetically Diverse Mouse Embryonic Stem Cells",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
+    "objectID": "publications/posts/2022-an-i-in-vitro-i-neurogenetics-platform-for-precision-disease/index.html",
+    "href": "publications/posts/2022-an-i-in-vitro-i-neurogenetics-platform-for-precision-disease/index.html",
+    "title": "An in vitro neurogenetics platform for precision disease modeling in the mouse",
+    "section": "",
+    "text": "· 2022"
+  },
+  {
+    "objectID": "publications/posts/2022-an-i-in-vitro-i-neurogenetics-platform-for-precision-disease/index.html#abstract",
+    "href": "publications/posts/2022-an-i-in-vitro-i-neurogenetics-platform-for-precision-disease/index.html#abstract",
+    "title": "An in vitro neurogenetics platform for precision disease modeling in the mouse",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract The power and scope of disease modeling can be markedly enhanced through the incorporation of broad genetic diversity. In the the mouse, the introduction of pathogenic mutations into a single inbred strain sometimes fails to mimic human disease. We describe a cross-species precision disease modeling platform that exploits mouse genetic diversity to bridge cell-based modeling with whole organism analysis. We developed a universal protocol that permitted robust and reproducible neural differentiation of genetically diverse human and mouse pluripotent stem cell lines, then carried out a proof of concept study of the neurodevelopmental gene DYRK1A . The results in vitro reliably predicted the effects of genetic background on DYRK1A loss of function phenotypes and identified optimal mouse strains for in vivo disease modeling. Transcriptomic comparison of responsive and unresponsive strains identified novel molecular pathways conferring sensitivity or resilience to DYRK1A loss, and highlighted differential mRNA isoform usage as an important genetic determinant of response This cross-species strategy will be an powerful tool in the functional analysis of candidate disease variants identified through human genetic studies. Teaser: Genetically diverse mouse embryonic stem cells provide a rapid approach to precision modeling of human disease."
+  },
+  {
+    "objectID": "publications/posts/2022-an-i-in-vitro-i-neurogenetics-platform-for-precision-disease/index.html#links",
+    "href": "publications/posts/2022-an-i-in-vitro-i-neurogenetics-platform-for-precision-disease/index.html#links",
+    "title": "An in vitro neurogenetics platform for precision disease modeling in the mouse",
+    "section": "Links",
+    "text": "Links\n DOI  Open Access"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification\n\n\nHannah B. Dewey, Selcan Aydin, Samuel J. Widmayer, Daniel A. Skelly, Daniel M. Gatti, Steven C. Munger\n\n\nArticle · 2026\n\n\nArticleDOIOpen Access"
-  },
-  {
-    "objectID": "publications.html#section",
-    "href": "publications.html#section",
-    "title": "Publications",
-    "section": "",
-    "text": "Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification\n\n\nHannah B. Dewey, Selcan Aydin, Samuel J. Widmayer, Daniel A. Skelly, Daniel M. Gatti, Steven C. Munger\n\n\nArticle · 2026\n\n\nArticleDOIOpen Access"
-  },
-  {
-    "objectID": "publications.html#section-1",
-    "href": "publications.html#section-1",
-    "title": "Publications",
-    "section": "2025",
-    "text": "2025\n\n\nSystems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells\n\n\nSelcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger\n\n\nG3 Genes Genomes Genetics · 2025\n\n\nArticleDOIOpen Access\n\n\n\n\nCross cell-type systems genetics reveals the influence of eQTL at multiple points in the developmental trajectory of mouse neural progenitor cells\n\n\nSelcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger\n\n\nPreprint · 2025\n\n\nPreprintDOIOpen Access"
-  },
-  {
-    "objectID": "publications.html#section-2",
-    "href": "publications.html#section-2",
-    "title": "Publications",
-    "section": "2024",
-    "text": "2024\n\n\nChromosome X Dosage Modulates Development of Aneuploidy in Genetically Diverse Mouse Embryonic Stem Cells\n\n\nAlexander R. Stanton, Selcan Aydin, Daniel A. Skelly, Dylan Stavish, K Léonhard, Seth M. Taapken, Erik McIntire, Matthew Pankratz, Anne Czechanski, Tenneille E. Ludwig, Ted Choi, Steven P. Gygi, Ivana Barbaric, Steven C. Munger, Laura G. Reinholdt, Martín F. Pera\n\n\nPreprint · 2024\n\n\nPreprintDOIOpen Access\n\n\n\n\nAn in vitro neurogenetics platform for precision disease modeling in the mouse\n\n\nDaniel Cortés, Mélanie Escudero, Austin C. Korgan, Arojit Mitra, Alyssa Edwards, Selcan Aydin, Steven C. Munger, Kevin Charland, Zhongwei Zhang, Kristen M.S. O’Connell, Laura G. Reinholdt, Martín F. Pera\n\n\nScience Advances · 2024\n\n\nArticleDOIOpen Access"
-  },
-  {
-    "objectID": "publications.html#section-3",
-    "href": "publications.html#section-3",
-    "title": "Publications",
-    "section": "2023",
-    "text": "2023\n\n\nGenetic dissection of the pluripotent proteome through multi-omics data integration\n\n\nSelcan Aydin, Duy T. Pham, Tian Zhang, Gregory R. Keele, Daniel A. Skelly, João A. Paulo, Matthew Pankratz, Ted Choi, Steven P. Gygi, Laura G. Reinholdt, Christopher L. Baker, Gary A. Churchill, Steven C. Munger\n\n\nCell Genomics · 2023\n\n\nArticleDOIOpen Access"
-  },
-  {
-    "objectID": "publications.html#section-4",
-    "href": "publications.html#section-4",
-    "title": "Publications",
-    "section": "2022",
-    "text": "2022\n\n\nGenetic dissection of the pluripotent proteome through multi-omics data integration\n\n\nSelcan Aydin, Duy T. Pham, Tian Zhang, Gregory R. Keele, Daniel A. Skelly, Matthew Pankratz, Ted Choi, Steven P. Gygi, Laura G. Reinholdt, Christopher L. Baker, Gary A. Churchill, Steven C. Munger\n\n\nPreprint · 2022\n\n\nPreprintDOIOpen Access\n\n\n\n\nAn in vitro neurogenetics platform for precision disease modeling in the mouse\n\n\nDaniel Cortés, Mélanie Escudero, Austin C. Korgan, Alyssa Edwards, Selcan Aydin, Steven C. Munger, Kevin Charland, Zhongwei Zhang, Kristen M.S. O’Connell, Laura G. Reinholdt, Martín F. Pera\n\n\nPreprint · 2022\n\n\nPreprintDOIOpen Access"
-  },
-  {
-    "objectID": "publications.html#section-5",
-    "href": "publications.html#section-5",
-    "title": "Publications",
-    "section": "2020",
-    "text": "2020\n\n\nNaive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation\n\n\nDaniel Ortmann, Stephanie Brown, Anne Czechanski, Selcan Aydin, Daniele Muraro, Yuanhua Huang, Rute A. Tomaz, Anna Osnato, Giovanni Canu, Brandon T. Wesley, Daniel A. Skelly, Oliver Stegle, Ted Choi, Gary A. Churchill, Christopher L. Baker, Peter J. Rugg‐Gunn, Steven C. Munger, Laura G. Reinholdt, Ludovic Vallier\n\n\nCell stem cell · 2020\n\n\nArticleDOIOpen Access\n\n\n\n\nMapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency\n\n\nDaniel A. Skelly, Anne Czechanski, Candice Byers, Selcan Aydin, Catrina Spruce, Chris Olivier, Kwangbom Choi, Daniel M. Gatti, Narayanan Raghupathy, Gregory R. Keele, Alexander R. Stanton, Matthew Vincent, Stephanie Dion, Ian Greenstein, Matthew Pankratz, Devin K. Porter, Whitney Martin, Callan O’connor, Wenning Qin, Alison H. Harrill, Ted Choi, Gary A. Churchill, Steven C. Munger, Christopher L. Baker, Laura G. Reinholdt\n\n\nCell stem cell · 2020\n\n\nArticleDOIOpen Access"
-  },
-  {
-    "objectID": "publications.html#section-6",
-    "href": "publications.html#section-6",
-    "title": "Publications",
-    "section": "2019",
-    "text": "2019\n\n\nGenetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes\n\n\nDaniel A. Skelly, Anne Czechanski, Candice Byers, Selcan Aydin, Catrina Spruce, Chris Olivier, Kwangbom Choi, Daniel M. Gatti, Narayanan Raghupathy, Alexander R. Stanton, Matthew Vincent, Stephanie Dion, Ian Greenstein, Matthew Pankratz, Devin K. Porter, Whitney Martin, Wenning Qin, Alison H. Harrill, Ted Choi, Gary A. Churchill, Steven C. Munger, Christopher L. Baker, Laura G. Reinholdt\n\n\nPreprint · 2019\n\n\nPreprintDOIOpen Access"
-  },
-  {
-    "objectID": "publications.html#section-7",
-    "href": "publications.html#section-7",
-    "title": "Publications",
-    "section": "2015",
-    "text": "2015\n\n\nDifferent Mechanisms Confer Gradual Control and Memory at Nutrient- and Stress-Regulated Genes in Yeast\n\n\nAlessandro Rienzo, Daniel Poveda-Huertes, Selcan Aydin, Nicolas E. Buchler, Amparo Pascual‐Ahuir, Markus Proft\n\n\nMolecular and Cellular Biology · 2015\n\n\nArticleDOIOpen Access"
+    "text": "Simplifying Systems Genetics with QTLretrievR: An R Package for Molecular QTL Identification\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\n2026\n\n\nHannah B. Dewey, Selcan Aydin, Samuel J. Widmayer, Daniel A. Skelly, Daniel M. Gatti, Steven C. Munger\n\n\n\n\n\n\n\nCross cell-type systems genetics reveals the influence of eQTL at multiple points in the developmental trajectory of mouse neural progenitor cells\n\n\n\nPreprint\n\n\n\n\n\n\n\n\n\n2025\n\n\nSelcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger\n\n\n\n\n\n\n\nSystems genetics reveals the influence of expression QTLs in mouse embryonic stem cells on transcriptional variation later in differentiated neural progenitor cells\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\n2025\n\n\nSelcan Aydin, Daniel A. Skelly, Hannah B. Dewey, J. Matthew Mahoney, Ted Choi, Laura G. Reinholdt, Christopher L. Baker, Steven C. Munger\n\n\nG3 Genes Genomes Genetics\n\n\n\n\n\n\n\nAn in vitro neurogenetics platform for precision disease modeling in the mouse\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\n2024\n\n\nDaniel Cortés, Mélanie Escudero, Austin C. Korgan, Arojit Mitra, Alyssa Edwards, Selcan Aydin, Steven C. Munger, Kevin Charland, Zhongwei Zhang, Kristen M.S. O’Connell, Laura G. Reinholdt, Martín F. Pera\n\n\nScience Advances\n\n\n\n\n\n\n\nChromosome X Dosage Modulates Development of Aneuploidy in Genetically Diverse Mouse Embryonic Stem Cells\n\n\n\nPreprint\n\n\n\n\n\n\n\n\n\n2024\n\n\nAlexander R. Stanton, Selcan Aydin, Daniel A. Skelly, Dylan Stavish, K Léonhard, Seth M. Taapken, Erik McIntire, Matthew Pankratz, Anne Czechanski, Tenneille E. Ludwig, Ted Choi, Steven P. Gygi, Ivana Barbaric, Steven C. Munger, Laura G. Reinholdt, Martín F. Pera\n\n\n\n\n\n\n\nGenetic dissection of the pluripotent proteome through multi-omics data integration\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\n2023\n\n\nSelcan Aydin, Duy T. Pham, Tian Zhang, Gregory R. Keele, Daniel A. Skelly, João A. Paulo, Matthew Pankratz, Ted Choi, Steven P. Gygi, Laura G. Reinholdt, Christopher L. Baker, Gary A. Churchill, Steven C. Munger\n\n\nCell Genomics\n\n\n\n\n\n\n\nAn in vitro neurogenetics platform for precision disease modeling in the mouse\n\n\n\nPreprint\n\n\n\n\n\n\n\n\n\n2022\n\n\nDaniel Cortés, Mélanie Escudero, Austin C. Korgan, Alyssa Edwards, Selcan Aydin, Steven C. Munger, Kevin Charland, Zhongwei Zhang, Kristen M.S. O’Connell, Laura G. Reinholdt, Martín F. Pera\n\n\n\n\n\n\n\nGenetic dissection of the pluripotent proteome through multi-omics data integration\n\n\n\nPreprint\n\n\n\n\n\n\n\n\n\n2022\n\n\nSelcan Aydin, Duy T. Pham, Tian Zhang, Gregory R. Keele, Daniel A. Skelly, Matthew Pankratz, Ted Choi, Steven P. Gygi, Laura G. Reinholdt, Christopher L. Baker, Gary A. Churchill, Steven C. Munger\n\n\n\n\n\n\n\nMapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\n2020\n\n\nDaniel A. Skelly, Anne Czechanski, Candice Byers, Selcan Aydin, Catrina Spruce, Chris Olivier, Kwangbom Choi, Daniel M. Gatti, Narayanan Raghupathy, Gregory R. Keele, Alexander R. Stanton, Matthew Vincent, Stephanie Dion, Ian Greenstein, Matthew Pankratz, Devin K. Porter, Whitney Martin, Callan O’connor, Wenning Qin, Alison H. Harrill, Ted Choi, Gary A. Churchill, Steven C. Munger, Christopher L. Baker, Laura G. Reinholdt\n\n\nCell stem cell\n\n\n\n\n\n\n\nNaive Pluripotent Stem Cells Exhibit Phenotypic Variability that Is Driven by Genetic Variation\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\n2020\n\n\nDaniel Ortmann, Stephanie Brown, Anne Czechanski, Selcan Aydin, Daniele Muraro, Yuanhua Huang, Rute A. Tomaz, Anna Osnato, Giovanni Canu, Brandon T. Wesley, Daniel A. Skelly, Oliver Stegle, Ted Choi, Gary A. Churchill, Christopher L. Baker, Peter J. Rugg‐Gunn, Steven C. Munger, Laura G. Reinholdt, Ludovic Vallier\n\n\nCell stem cell\n\n\n\n\n\n\n\nGenetic variation influences pluripotent ground state stability in mouse embryonic stem cells through a hierarchy of molecular phenotypes\n\n\n\nPreprint\n\n\n\n\n\n\n\n\n\n2019\n\n\nDaniel A. Skelly, Anne Czechanski, Candice Byers, Selcan Aydin, Catrina Spruce, Chris Olivier, Kwangbom Choi, Daniel M. Gatti, Narayanan Raghupathy, Alexander R. Stanton, Matthew Vincent, Stephanie Dion, Ian Greenstein, Matthew Pankratz, Devin K. Porter, Whitney Martin, Wenning Qin, Alison H. Harrill, Ted Choi, Gary A. Churchill, Steven C. Munger, Christopher L. Baker, Laura G. Reinholdt\n\n\n\n\n\n\n\nDifferent Mechanisms Confer Gradual Control and Memory at Nutrient- and Stress-Regulated Genes in Yeast\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\n2015\n\n\nAlessandro Rienzo, Daniel Poveda-Huertes, Selcan Aydin, Nicolas E. Buchler, Amparo Pascual‐Ahuir, Markus Proft\n\n\nMolecular and Cellular Biology\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv.html",
