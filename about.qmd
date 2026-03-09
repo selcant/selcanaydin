@@ -14,7 +14,7 @@ about:
         href: https://orcid.org/0000-0002-0457-9641
         aria-label: Orcid
       - text: "{{< iconify academicons google-scholar >}}"
-        href: https://scholar.google.com
+        href: https://scholar.google.com/citations?user=OfDpKQIAAAAJ&hl=en&inst=955605570671304314
         aria-label: Google Scholar
       - icon: linkedin
         href: https://www.linkedin.com/in/selcanayd/
@@ -27,29 +27,102 @@ about:
         aria-label: Email
 ---
 
-Hello! I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin) in Bar Harbor, Maine, working in the [Munger Lab](https://www.jax.org/research-and-faculty/research-labs/the-munger-lab). Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University in 2017, where I studied the impacts of genetic variation on cellular phenotypes in budding yeast with Drs. Nicolas Buchler and Paul Magwene.
+Hey, I'm glad you're here — thanks for stopping by!
 
-My research now revolves around **quantitative genetics** and **systems biology**, with a particular focus on understanding how genetic variation shapes cell fate decisions and mouse development.
+I'm a computational scientist at [The Jackson Laboratory](https://www.jax.org/people/selcan-aydin) in Bar Harbor, Maine,
+working in the [Munger Lab](https://www.jax.org/research-and-faculty/research-labs/the-munger-lab).
+My research sits at the intersection of **quantitative genetics**, **systems biology**, and **developmental biology**,
+with a focus on how genetic variation shapes gene regulation and cell fate decisions in mice.
+
+Get in touch by [sending me an email](mailto:selcan.aydin@jax.org)!
+
+---
+
+## About me
+
+**Computational biologist with interdisciplinary roots — from mathematical modeling of cell signaling to systems genetics of development.**
+
+I grew up in Istanbul, Turkey, and my scientific journey has taken me from modeling biochemical networks in Heidelberg,
+to mapping the genetics of stress responses in yeast at Duke, to studying how genetic variation reshapes gene regulatory networks in mouse stem cells and their differentiated progeny.
+
+Early in my career I realized that I thrive on interdisciplinary questions. My master's at Heidelberg introduced me to
+mathematical modeling of cellular signaling, and my PhD at Duke extended this curiosity to genetic variation — asking
+how differences in DNA sequence alter the way cells respond to environmental signals. Along the way I picked up a broad
+toolkit: high-throughput phenotyping, fluorescence and luminescence microscopy, quantitative genetics methods, and
+computational skills for handling large sequencing datasets. That training planted the seeds of my career as a
+computational geneticist.
+
+- Ph.D. in Biology · Duke University · 2017
+- M.Sc. in Systems Biology · Universität Heidelberg · 2010
+- B.Sc. in Biological Sciences & Bioengineering · Sabancı University · 2009
+
+### Research at JAX
+
+At JAX I use [Diversity Outbred (DO) mice](https://www.jax.org/strain/009376) as a resource for systems genetics,
+mapping how genetic variation shapes gene regulation across multiple molecular layers and cell states. This work
+traced a causal path from a single regulatory variant near *Lifr* through a cascade of molecular changes to
+pluripotency maintenance
+([Skelly, Czechanski, Byers, **Aydin** et al., *Cell Stem Cell*, 2020](https://doi.org/10.1016/j.stem.2020.07.005);
+[Ortmann, Brown, Czechanski, **Aydin** et al., *Cell Stem Cell*, 2020](https://doi.org/10.1016/j.stem.2020.07.019)),
+and showed that jointly integrating chromatin, transcript, and protein data uncovers loci invisible to single-omics
+approaches
+([**Aydin** et al., *Cell Genomics*, 2023](https://doi.org/10.1016/j.xgen.2023.100283)).
+Expanding to neural progenitor cells revealed both conserved and cell-state-specific eQTL, and demonstrated that
+genetic effects established in ESCs can propagate to shape transcriptional variation in downstream differentiated cells
+([**Aydin** et al., *G3*, 2025](https://doi.org/10.1093/g3journal/jkaf099);
+[**Aydin** et al., preprint, 2025](https://doi.org/10.1101/2025.01.24.634514)).
+We also released [QTLretrievR](https://doi.org/10.64898/2026.02.16.706200) to make molecular QTL mapping more
+accessible to the community.
+
+I'm currently applying these approaches to single-cell RNA-seq data and extending our systems genetics framework to
+new biological contexts, including the developing palate. One thing that has remained constant across all of this work
+is a genuine love of learning — both picking up new computational methods as the field evolves, and deepening my
+understanding of the biology along the way.
+
+### Teaching, mentoring & outreach
+
+I am passionate about lowering barriers to computational biology for life scientists — especially skills that people
+find intimidating, like statistics, coding, or working with large datasets. Because most of my own computational skills
+were self-taught, I know firsthand the value of accessible, well-scaffolded training. I am a certified
+[Posit (RStudio) Tidyverse Instructor](https://education.rstudio.com/trainers/people/aydin+selcan/) and a certified
+Software Carpentry instructor, and I have been teaching workshops both within JAX and across the broader community.
+
+Beyond the classroom, I am committed to making science a more equitable and welcoming place. I served on the
+**Accessibility Subcommittee** of the
+[GSA Early Career Scientist Committees](https://genestogenomes.org/early-career-leadership-spotlight-selcan-aydin/),
+working to identify barriers faced by scientists with disabilities and develop resources to make research, labs, and
+conferences more accessible. I have also been active in supporting foreign researchers navigating visa and immigration
+challenges — an issue close to my own experience as an international scientist — and in raising awareness around
+mental health in academia.
 
 Outside of work I enjoy hiking, gardening, and spending time with my family and our dog Darwin. 🌿
 
+---
+
 ## Interests
 
--   Quantitative Genetics
--   Cellular Signaling
--   Systems Biology
--   R / Bioinformatics
+- Quantitative Genetics & QTL Mapping
+- Multi-omics Data Integration
+- Gene Regulatory Networks
+- Stem Cell & Developmental Biology
+- R / Bioinformatics
+
+---
 
 ## Education
 
 **PhD in Biology** · 2017\
-Duke University
+Duke University, Durham NC\
+*Advisors: Drs. Nicolas Buchler & Paul Magwene*
 
 **MSc in Systems Biology** · 2010\
-Universität Heidelberg
+Universität Heidelberg, Germany\
+*Advisor: Dr. Ursula Kummer*
 
 **BSc in Biological Sciences & Bioengineering** · 2009\
-Sabancı University
+Sabancı University, Istanbul, Turkey
+
+---
 
 ## Experience
 
@@ -57,7 +130,8 @@ Sabancı University
 The Jackson Laboratory, Bar Harbor ME
 
 **Postdoctoral Associate** · 2018–2023\
-The Jackson Laboratory, Bar Harbor ME
+The Jackson Laboratory, Bar Harbor ME\
+*Munger Lab — systems genetics of pluripotency*
 
 **Research Associate** · 2017\
 Duke University, Durham NC

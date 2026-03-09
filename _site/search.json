@@ -11,35 +11,42 @@
     "href": "about.html",
     "title": "Selcan Aydin",
     "section": "",
-    "text": "Hello! I’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine, working in the Munger Lab. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University in 2017, where I studied the impacts of genetic variation on cellular phenotypes in budding yeast with Drs. Nicolas Buchler and Paul Magwene.\nMy research now revolves around quantitative genetics and systems biology, with a particular focus on understanding how genetic variation shapes cell fate decisions and mouse development.\nOutside of work I enjoy hiking, gardening, and spending time with my family and our dog Darwin. 🌿"
+    "text": "Hey, I’m glad you’re here — thanks for stopping by!\nI’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine, working in the Munger Lab. My research sits at the intersection of quantitative genetics, systems biology, and developmental biology, with a focus on how genetic variation shapes gene regulation and cell fate decisions in mice.\nGet in touch by sending me an email!"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "Selcan Aydin",
+    "section": "About me",
+    "text": "About me\nComputational biologist with interdisciplinary roots — from mathematical modeling of cell signaling to systems genetics of development.\nI grew up in Istanbul, Turkey, and my scientific journey has taken me from modeling biochemical networks in Heidelberg, to mapping the genetics of stress responses in yeast at Duke, to studying how genetic variation reshapes gene regulatory networks in mouse stem cells and their differentiated progeny.\nEarly in my career I realized that I thrive on interdisciplinary questions. My master’s at Heidelberg introduced me to mathematical modeling of cellular signaling, and my PhD at Duke extended this curiosity to genetic variation — asking how differences in DNA sequence alter the way cells respond to environmental signals. Along the way I picked up a broad toolkit: high-throughput phenotyping, fluorescence and luminescence microscopy, quantitative genetics methods, and computational skills for handling large sequencing datasets. That training planted the seeds of my career as a computational geneticist.\n\nPh.D. in Biology · Duke University · 2017\nM.Sc. in Systems Biology · Universität Heidelberg · 2010\nB.Sc. in Biological Sciences & Bioengineering · Sabancı University · 2009\n\n\nResearch at JAX\nAt JAX I use Diversity Outbred (DO) mice as a resource for systems genetics, mapping how genetic variation shapes gene regulation across multiple molecular layers and cell states. This work traced a causal path from a single regulatory variant near Lifr through a cascade of molecular changes to pluripotency maintenance (Skelly, Czechanski, Byers, Aydin et al., Cell Stem Cell, 2020; Ortmann, Brown, Czechanski, Aydin et al., Cell Stem Cell, 2020), and showed that jointly integrating chromatin, transcript, and protein data uncovers loci invisible to single-omics approaches (Aydin et al., Cell Genomics, 2023). Expanding to neural progenitor cells revealed both conserved and cell-state-specific eQTL, and demonstrated that genetic effects established in ESCs can propagate to shape transcriptional variation in downstream differentiated cells (Aydin et al., G3, 2025; Aydin et al., preprint, 2025). We also released QTLretrievR to make molecular QTL mapping more accessible to the community.\nI’m currently applying these approaches to single-cell RNA-seq data and extending our systems genetics framework to new biological contexts, including the developing palate. One thing that has remained constant across all of this work is a genuine love of learning — both picking up new computational methods as the field evolves, and deepening my understanding of the biology along the way.\n\n\nTeaching, mentoring & outreach\nI am passionate about lowering barriers to computational biology for life scientists — especially skills that people find intimidating, like statistics, coding, or working with large datasets. Because most of my own computational skills were self-taught, I know firsthand the value of accessible, well-scaffolded training. I am a certified Posit (RStudio) Tidyverse Instructor and a certified Software Carpentry instructor, and I have been teaching workshops both within JAX and across the broader community.\nBeyond the classroom, I am committed to making science a more equitable and welcoming place. I served on the Accessibility Subcommittee of the GSA Early Career Scientist Committees, working to identify barriers faced by scientists with disabilities and develop resources to make research, labs, and conferences more accessible. I have also been active in supporting foreign researchers navigating visa and immigration challenges — an issue close to my own experience as an international scientist — and in raising awareness around mental health in academia.\nOutside of work I enjoy hiking, gardening, and spending time with my family and our dog Darwin. 🌿"
   },
   {
     "objectID": "about.html#interests",
     "href": "about.html#interests",
     "title": "Selcan Aydin",
     "section": "Interests",
-    "text": "Interests\n\nQuantitative Genetics\nCellular Signaling\nSystems Biology\nR / Bioinformatics"
+    "text": "Interests\n\nQuantitative Genetics & QTL Mapping\nMulti-omics Data Integration\nGene Regulatory Networks\nStem Cell & Developmental Biology\nR / Bioinformatics"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "Selcan Aydin",
     "section": "Education",
-    "text": "Education\nPhD in Biology · 2017\nDuke University\nMSc in Systems Biology · 2010\nUniversität Heidelberg\nBSc in Biological Sciences & Bioengineering · 2009\nSabancı University"
+    "text": "Education\nPhD in Biology · 2017\nDuke University, Durham NC\nAdvisors: Drs. Nicolas Buchler & Paul Magwene\nMSc in Systems Biology · 2010\nUniversität Heidelberg, Germany\nAdvisor: Dr. Ursula Kummer\nBSc in Biological Sciences & Bioengineering · 2009\nSabancı University, Istanbul, Turkey"
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
     "title": "Selcan Aydin",
     "section": "Experience",
-    "text": "Experience\nAssociate Computational Scientist · 2023–present\nThe Jackson Laboratory, Bar Harbor ME\nPostdoctoral Associate · 2018–2023\nThe Jackson Laboratory, Bar Harbor ME\nResearch Associate · 2017\nDuke University, Durham NC"
+    "text": "Experience\nAssociate Computational Scientist · 2023–present\nThe Jackson Laboratory, Bar Harbor ME\nPostdoctoral Associate · 2018–2023\nThe Jackson Laboratory, Bar Harbor ME\nMunger Lab — systems genetics of pluripotency\nResearch Associate · 2017\nDuke University, Durham NC"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Selcan Aydin",
     "section": "",
-    "text": "Hello! I’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on quantitative genetics and systems biology — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my son Leo and our dog Darwin. 🌿\nLearn more about me →"
+    "text": "Hello! I’m a computational scientist at The Jackson Laboratory in Bar Harbor, Maine. Originally from Istanbul, Turkey, I completed my Ph.D. in Biology at Duke University, studying the impacts of genetic variation on cellular phenotypes in budding yeast. My work now focuses on systems genetics — understanding how genetic variation shapes cell fate decisions and mouse development. Outside the lab I enjoy hiking the Maine coast, gardening, and spending time with my family and our dog Darwin. 🌿\nLearn more about me →"
   },
   {
     "objectID": "index.html#recent-research",
