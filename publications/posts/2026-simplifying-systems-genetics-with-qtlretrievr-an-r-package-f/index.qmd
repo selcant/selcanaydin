@@ -18,11 +18,17 @@ url: https://www.biorxiv.org/content/biorxiv/early/2026/02/18/2026.02.16.706200.
 
 ## Abstract
 
-Motivation Over the past two decades, integrating “-omics” scale molecular profiling with genetic mapping in diverse populations—termed “systems genetics”—has proven powerful for linking complex disease phenotypes to genetic variants and their regulatory effects. However, these combined genomic and genetic analyses remain computationally intensive and often inaccessible to researchers without a strong computational background, a problem compounded in studies with multiple tissues or thousands of molecular -omics phenotypes.
+**Motivation**
 
-Results We developed QTLretrievR, an R package designed to simplify and streamline the identification and downstream analysis of molecular quantitative trait loci in genetically diverse populations. QTLretrievR builds on widely used R packages such as r/qtl2 for quantitative trait locus mapping and r/intermediate for mediation analysis, and incorporates substantial parallelization features to improve computational efficiency. Benchmarking demonstrates that QTLretrievR can reproduce results from previous quantitative trait locus studies while significantly reducing the time required for quantitative trait locus peak detection and downstream analyses. Additionally, QTL-retrievR includes plotting functions to visualize results of the included downstream analyses.
+Over the past two decades, integrating “-omics” scale molecular profiling with genetic mapping in diverse populations—termed “systems genetics”—has proven powerful for linking complex disease phenotypes to genetic variants and their regulatory effects. However, these combined genomic and genetic analyses remain computationally intensive and often inaccessible to researchers without a strong computational background, a problem compounded in studies with multiple tissues or thousands of molecular -omics phenotypes.
 
-Availability Source code is available at https://github.com/deweyhannah/QTLretrievR.
+**Results**
+
+We developed QTLretrievR, an R package designed to simplify and streamline the identification and downstream analysis of molecular quantitative trait loci in genetically diverse populations. QTLretrievR builds on widely used R packages such as r/qtl2 for quantitative trait locus mapping and r/intermediate for mediation analysis, and incorporates substantial parallelization features to improve computational efficiency. Benchmarking demonstrates that QTLretrievR can reproduce results from previous quantitative trait locus studies while significantly reducing the time required for quantitative trait locus peak detection and downstream analyses. Additionally, QTL-retrievR includes plotting functions to visualize results of the included downstream analyses.
+
+**Availability**
+
+Source code is available at https://github.com/deweyhannah/QTLretrievR.
 
 ## Links
 
