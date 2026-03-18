@@ -4,6 +4,13 @@ project:
 
 website:
   title: "Selcan Aydin"
+  cookie-consent:
+    type: express        # Requires explicit opt-in
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-TNL241D611"
+    anonymize-ip: true
   favicon: assets/avatar.jpg
 
   navbar:
